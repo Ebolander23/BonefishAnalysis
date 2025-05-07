@@ -1,0 +1,553 @@
+BLAST Summary Results
+=====================
+
+Query ID	Subject ID	% Identity	Alignment Length	Mismatches	Gap Openings	Query Start	Query End	Subject Start	Subject End	E-value	Bit Score
+---------	----------	-----------	----------------	-----------	------------	-----------	---------	-------------	-----------	-------	---------
+
+-3R assembly consensus.fa (Albula goreensis):
+BTT046_ALBA-3R_assembly_Albula_goreensis_voucher_TFJ-08_cytochrome_b_gene,_partial_cds;_mitochondrial._consensus	ON993809.1	99.801	502	1	0	1	502	130	631	0.0	922
+
+
+Results for BTT060_ALBA-3R_7984908_013 (trimmed).fa (Albula vulpes):
+BTT060_ALBA-3R_7984908_013_(trimmed)	NC_082992.1	98.689	610	2	5	7	615	14541	15145	0.0	1079
+
+Results for BTT060_ALBA-3R_7984908_013 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT061_ALBA-3R_7984908_011 (trimmed).fa (Albula vulpes):
+BTT061_ALBA-3R_7984908_011_(trimmed)	NC_082992.1	98.525	610	3	6	8	616	14541	15145	0.0	1075
+
+Results for BTT061_ALBA-3R_7984908_011 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT064_ALBA-3R_7984908_009 (trimmed).fa (Albula vulpes):
+BTT064_ALBA-3R_7984908_009_(trimmed)	NC_082992.1	98.851	609	2	5	8	615	14541	15145	0.0	1085
+
+Results for BTT064_ALBA-3R_7984908_009 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT079_ALBA-3R_7984908_007 (trimmed).fa (Albula vulpes):
+BTT079_ALBA-3R_7984908_007_(trimmed)	NC_082992.1	98.185	606	4	6	1	605	14541	15140	0.0	1059
+
+Results for BTT079_ALBA-3R_7984908_007 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT081_ALBA-3R_7984908_005 (trimmed).fa (Albula vulpes):
+BTT081_ALBA-3R_7984908_005_(trimmed)	NC_082992.1	98.363	611	3	6	8	617	14541	15145	0.0	1070
+
+Results for BTT081_ALBA-3R_7984908_005 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT083_ALBA-3R_7984908_003 (trimmed).fa (Albula vulpes):
+BTT083_ALBA-3R_7984908_003_(trimmed)	NC_082992.1	98.795	581	5	2	1	581	14567	15145	0.0	1040
+
+Results for BTT083_ALBA-3R_7984908_003 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT085_ALBA-3R_7984908_001 (trimmed).fa (Albula vulpes):
+BTT085_ALBA-3R_7984908_001_(trimmed)	NC_082992.1	97.260	511	6	7	1	509	14535	15039	0.0	867
+
+Results for BTT085_ALBA-3R_7984908_001 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT086_ALBA-3R_7984908_016 (trimmed).fa (Albula vulpes):
+BTT086_ALBA-3R_7984908_016_(trimmed)	NC_082992.1	98.203	612	3	7	5	615	14541	15145	0.0	1068
+
+Results for BTT086_ALBA-3R_7984908_016 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT087_ALBA-3R_7984908_014 (trimmed).fa (Albula vulpes):
+BTT087_ALBA-3R_7984908_014_(trimmed)	NC_082992.1	98.839	603	3	4	5	606	14541	15140	0.0	1075
+
+Results for BTT087_ALBA-3R_7984908_014 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT092_ALBA-3R_7984908_012 (trimmed).fa (Albula vulpes):
+BTT092_ALBA-3R_7984908_012_(trimmed)	NC_082992.1	98.525	610	3	6	1	609	14541	15145	0.0	1077
+
+Results for BTT092_ALBA-3R_7984908_012 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT093_ALBA-3R_7984908_010 (trimmed).fa (Albula vulpes):
+BTT093_ALBA-3R_7984908_010_(trimmed)	NC_082992.1	98.361	610	4	5	8	616	14541	15145	0.0	1072
+
+Results for BTT093_ALBA-3R_7984908_010 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT094_ALBA-3R_7984908_008 (trimmed).fa (Albula vulpes):
+BTT094_ALBA-3R_7984908_008_(trimmed)	NC_082992.1	98.673	603	3	5	1	603	14548	15145	0.0	1070
+
+Results for BTT094_ALBA-3R_7984908_008 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT095_ALBA-3R_7984908_006 (trimmed).fa (Albula vulpes):
+BTT095_ALBA-3R_7984908_006_(trimmed)	NC_082992.1	98.684	608	4	4	8	614	14541	15145	0.0	1081
+
+Results for BTT095_ALBA-3R_7984908_006 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT096_ALBA-3R_7984908_004 (trimmed).fa (Albula vulpes):
+BTT096_ALBA-3R_7984908_004_(trimmed)	NC_082992.1	98.839	603	2	5	5	607	14548	15145	0.0	1074
+
+Results for BTT096_ALBA-3R_7984908_004 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT097_ALBA-3R_7984908_002 (trimmed).fa (Albula vulpes):
+BTT097_ALBA-3R_7984908_002_(trimmed)	NC_082992.1	98.527	611	5	4	3	612	14541	15148	0.0	1083
+
+Results for BTT097_ALBA-3R_7984908_002 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT098_ALBA-3R_7984908_031 (trimmed).fa (Albula vulpes):
+BTT098_ALBA-3R_7984908_031_(trimmed)	NC_082992.1	98.039	612	4	8	5	615	14541	15145	0.0	1062
+
+Results for BTT098_ALBA-3R_7984908_031 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT099_ALBA-3R_7984908_029 (trimmed).fa (Albula vulpes):
+BTT099_ALBA-3R_7984908_029_(trimmed)	NC_082992.1	98.522	609	4	5	8	615	14541	15145	0.0	1075
+
+Results for BTT099_ALBA-3R_7984908_029 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT100_ALBA-3R_7984908_027 (trimmed).fa (Albula vulpes):
+BTT100_ALBA-3R_7984908_027_(trimmed)	NC_082992.1	98.049	615	4	7	5	618	14541	15148	0.0	1068
+
+Results for BTT100_ALBA-3R_7984908_027 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT102_ALBA-3R_7984908_025 (trimmed).fa (Albula vulpes):
+BTT102_ALBA-3R_7984908_025_(trimmed)	NC_082992.1	98.507	603	5	4	8	609	14541	15140	0.0	1068
+
+Results for BTT102_ALBA-3R_7984908_025 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT111_ALBA-3R_7984908_023 (trimmed).fa (Albula vulpes):
+BTT111_ALBA-3R_7984908_023_(trimmed)	NC_082992.1	99.005	603	2	4	13	615	14547	15145	0.0	1079
+
+Results for BTT111_ALBA-3R_7984908_023 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT112_ALBA-3R_7984908_021 (trimmed).fa (Albula vulpes):
+BTT112_ALBA-3R_7984908_021_(trimmed)	NC_082992.1	98.344	604	5	5	1	603	14541	15140	0.0	1062
+
+Results for BTT112_ALBA-3R_7984908_021 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT145_ALBA-3R_7984908_017 (trimmed).fa (Albula vulpes):
+BTT145_ALBA-3R_7984908_017_(trimmed)	NC_082992.1	98.061	619	3	9	2	618	14534	15145	0.0	1070
+
+Results for BTT145_ALBA-3R_7984908_017 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT146_ALBA-3R_7984908_032 (trimmed).fa (Albula vulpes):
+BTT146_ALBA-3R_7984908_032_(trimmed)	NC_082992.1	98.507	603	5	4	7	608	14541	15140	0.0	1068
+
+Results for BTT146_ALBA-3R_7984908_032 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT148_ALBA-3R_7984908_030 (trimmed).fa (Albula vulpes):
+BTT148_ALBA-3R_7984908_030_(trimmed)	NC_082992.1	98.200	611	4	6	5	614	14541	15145	0.0	1066
+
+Results for BTT148_ALBA-3R_7984908_030 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT149_ALBA-3R_7984908_028 (trimmed).fa (Albula vulpes):
+BTT149_ALBA-3R_7984908_028_(trimmed)	NC_082992.1	98.361	610	4	5	8	616	14541	15145	0.0	1072
+
+Results for BTT149_ALBA-3R_7984908_028 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT163_ALBA-3R_7984908_026 (trimmed).fa (Albula vulpes):
+BTT163_ALBA-3R_7984908_026_(trimmed)	NC_082992.1	99.003	602	2	4	12	612	14547	15145	0.0	1077
+
+Results for BTT163_ALBA-3R_7984908_026 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT164_ALBA-3R_7984908_024 (trimmed).fa (Albula vulpes):
+BTT164_ALBA-3R_7984908_024_(trimmed)	NC_082992.1	98.369	613	4	5	5	616	14541	15148	0.0	1075
+
+Results for BTT164_ALBA-3R_7984908_024 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT165_ALBA-3R_7984908_022 (trimmed).fa (Albula vulpes):
+BTT165_ALBA-3R_7984908_022_(trimmed)	NC_082992.1	98.839	603	3	4	10	612	14547	15145	0.0	1075
+
+Results for BTT165_ALBA-3R_7984908_022 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT166_ALBA-3R_7984908_020 (trimmed).fa (Albula vulpes):
+BTT166_ALBA-3R_7984908_020_(trimmed)	NC_082992.1	98.529	612	4	5	1	611	14541	15148	0.0	1083
+
+Results for BTT166_ALBA-3R_7984908_020 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT167_ALBA-3R_7984908_018 (trimmed).fa (Albula vulpes):
+BTT167_ALBA-3R_7984908_018_(trimmed)	NC_082992.1	98.686	609	4	4	8	616	14541	15145	0.0	1083
+
+Results for BTT167_ALBA-3R_7984908_018 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT173_ALBA-3R_7984908_047 (trimmed).fa (Albula vulpes):
+BTT173_ALBA-3R_7984908_047_(trimmed)	NC_082992.1	98.344	604	5	5	8	610	14541	15140	0.0	1062
+
+Results for BTT173_ALBA-3R_7984908_047 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT181_ALBA-3R_7984908_045 (trimmed).fa (Albula vulpes):
+BTT181_ALBA-3R_7984908_045_(trimmed)	NC_082992.1	98.200	611	4	6	8	618	14541	15144	0.0	1064
+
+Results for BTT181_ALBA-3R_7984908_045 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT182_ALBA-3R_7984908_043 (trimmed).fa (Albula vulpes):
+BTT182_ALBA-3R_7984908_043_(trimmed)	NC_082992.1	98.693	612	3	5	7	617	14541	15148	0.0	1085
+
+Results for BTT182_ALBA-3R_7984908_043 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT193_ALBA-3R_7984908_041 (trimmed).fa (Albula vulpes):
+BTT193_ALBA-3R_7984908_041_(trimmed)	NC_082992.1	96.450	338	8	4	1	338	14567	14900	2.50e-163	562
+
+Results for BTT193_ALBA-3R_7984908_041 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT197_ALBA-3R_7984908_039 (trimmed).fa (Albula vulpes):
+BTT197_ALBA-3R_7984908_039_(trimmed)	NC_082992.1	98.525	610	3	6	8	616	14541	15145	0.0	1075
+
+Results for BTT197_ALBA-3R_7984908_039 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT201_ALBA-3R_7984908_037 (trimmed).fa (Albula vulpes):
+BTT201_ALBA-3R_7984908_037_(trimmed)	NC_082992.1	98.347	605	5	4	5	609	14541	15140	0.0	1064
+
+Results for BTT201_ALBA-3R_7984908_037 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT202_ALBA-3R_7984908_035 (trimmed).fa (Albula vulpes):
+BTT202_ALBA-3R_7984908_035_(trimmed)	NC_082992.1	98.358	609	5	5	8	615	14541	15145	0.0	1070
+
+Results for BTT202_ALBA-3R_7984908_035 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT203_ALBA-3R_7984908_033 (trimmed).fa (Albula vulpes):
+BTT203_ALBA-3R_7984908_033_(trimmed)	NC_082992.1	98.525	610	3	6	5	613	14541	15145	0.0	1075
+
+Results for BTT203_ALBA-3R_7984908_033 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT204_ALBA-3R_7984908_048 (trimmed).fa (Albula vulpes):
+BTT204_ALBA-3R_7984908_048_(trimmed)	NC_082992.1	98.507	603	5	4	1	602	14541	15140	0.0	1068
+
+Results for BTT204_ALBA-3R_7984908_048 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT205_ALBA-3R_7984908_046 (trimmed).fa (Albula vulpes):
+BTT205_ALBA-3R_7984908_046_(trimmed)	NC_082992.1	98.522	609	4	5	8	615	14541	15145	0.0	1075
+
+Results for BTT205_ALBA-3R_7984908_046 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT207_ALBA-3R_7984908_044 (trimmed).fa (Albula vulpes):
+BTT207_ALBA-3R_7984908_044_(trimmed)	NC_082992.1	98.673	603	4	4	8	609	14541	15140	0.0	1072
+
+Results for BTT207_ALBA-3R_7984908_044 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT208_ALBA-3R_7984908_042 (trimmed).fa (Albula vulpes):
+BTT208_ALBA-3R_7984908_042_(trimmed)	NC_082992.1	98.512	605	4	4	1	605	14549	15148	0.0	1070
+
+Results for BTT208_ALBA-3R_7984908_042 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT210_ALBA-3R_7984908_040 (trimmed).fa (Albula vulpes):
+BTT210_ALBA-3R_7984908_040_(trimmed)	NC_082992.1	98.852	610	1	6	7	615	14541	15145	0.0	1085
+
+Results for BTT210_ALBA-3R_7984908_040 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT211_ALBA-3R_7984908_038 (trimmed).fa (Albula vulpes):
+BTT211_ALBA-3R_7984908_038_(trimmed)	NC_082992.1	98.347	605	4	4	8	611	14541	15140	0.0	1062
+
+Results for BTT211_ALBA-3R_7984908_038 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT212_ALBA-3R_7984908_036 (trimmed).fa (Albula vulpes):
+BTT212_ALBA-3R_7984908_036_(trimmed)	NC_082992.1	97.879	613	4	8	8	619	14541	15145	0.0	1057
+
+Results for BTT212_ALBA-3R_7984908_036 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT213_ALBA-3R_7984908_063 (trimmed).fa (Albula vulpes):
+BTT213_ALBA-3R_7984908_063_(trimmed)	NC_082992.1	98.673	603	4	4	8	609	14541	15140	0.0	1072
+
+Results for BTT213_ALBA-3R_7984908_063 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT214_ALBA-3R_7984908_061 (trimmed).fa (Albula vulpes):
+BTT214_ALBA-3R_7984908_061_(trimmed)	NC_082992.1	98.829	598	2	5	13	610	14548	15140	0.0	1064
+
+Results for BTT214_ALBA-3R_7984908_061 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT215_ALBA-3R_7984908_059 (trimmed).fa (Albula vulpes):
+BTT215_ALBA-3R_7984908_059_(trimmed)	NC_082992.1	98.671	602	4	4	1	602	14548	15145	0.0	1070
+
+Results for BTT215_ALBA-3R_7984908_059 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT216_ALBA-3R_7984908_057 (trimmed).fa (Albula vulpes):
+BTT216_ALBA-3R_7984908_057_(trimmed)	NC_082992.1	98.361	610	4	6	5	613	14541	15145	0.0	1074
+
+Results for BTT216_ALBA-3R_7984908_057 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT217_ALBA-3R_7984908_055 (trimmed).fa (Albula vulpes):
+BTT217_ALBA-3R_7984908_055_(trimmed)	NC_082992.1	98.522	609	4	5	8	615	14541	15145	0.0	1075
+
+Results for BTT217_ALBA-3R_7984908_055 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT229_ALBA-3R_7984908_053 (trimmed).fa (Albula vulpes):
+BTT229_ALBA-3R_7984908_053_(trimmed)	NC_082992.1	98.344	604	4	6	1	604	14548	15145	0.0	1061
+
+Results for BTT229_ALBA-3R_7984908_053 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT230_ALBA-3R_7984908_051 (trimmed).fa (Albula vulpes):
+BTT230_ALBA-3R_7984908_051_(trimmed)	NC_082992.1	98.851	609	2	4	8	615	14541	15145	0.0	1083
+
+Results for BTT230_ALBA-3R_7984908_051 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT231_ALBA-3R_7984908_049 (trimmed).fa (Albula vulpes):
+BTT231_ALBA-3R_7984908_049_(trimmed)	NC_082992.1	98.164	599	6	4	1	599	14547	15140	0.0	1048
+
+Results for BTT231_ALBA-3R_7984908_049 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT232_ALBA-3R_7984908_064 (trimmed).fa (Albula vulpes):
+BTT232_ALBA-3R_7984908_064_(trimmed)	NC_082992.1	98.686	609	4	4	8	616	14541	15145	0.0	1083
+
+Results for BTT232_ALBA-3R_7984908_064 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT233_ALBA-3R_7984908_062 (trimmed).fa (Albula vulpes):
+BTT233_ALBA-3R_7984908_062_(trimmed)	NC_082992.1	98.505	602	5	4	5	606	14548	15145	0.0	1064
+
+Results for BTT233_ALBA-3R_7984908_062 (trimmed).fa (Albula goreensis):
+BTT233_ALBA-3R_7984908_062_(trimmed)	ON993809.1	89.189	592	59	5	10	600	137	724	0.0	737
+
+
+Results for BTT234_ALBA-3R_7984908_060 (trimmed).fa (Albula vulpes):
+BTT234_ALBA-3R_7984908_060_(trimmed)	NC_082992.1	98.673	603	4	4	8	609	14541	15140	0.0	1072
+
+Results for BTT234_ALBA-3R_7984908_060 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT235_ALBA-3R_7984908_058 (trimmed).fa (Albula vulpes):
+BTT235_ALBA-3R_7984908_058_(trimmed)	NC_082992.1	98.684	608	4	4	5	611	14541	15145	0.0	1081
+
+Results for BTT235_ALBA-3R_7984908_058 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT236_ALBA-3R_7984908_056 (trimmed).fa (Albula vulpes):
+BTT236_ALBA-3R_7984908_056_(trimmed)	NC_082992.1	98.525	610	3	5	5	613	14541	15145	0.0	1077
+
+Results for BTT236_ALBA-3R_7984908_056 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT237_ALBA-3R_7984908_054 (trimmed).fa (Albula vulpes):
+BTT237_ALBA-3R_7984908_054_(trimmed)	NC_082992.1	98.208	614	5	5	7	620	14541	15148	0.0	1074
+
+Results for BTT237_ALBA-3R_7984908_054 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT238_ALBA-3R_7984908_052 (trimmed).fa (Albula vulpes):
+BTT238_ALBA-3R_7984908_052_(trimmed)	NC_082992.1	98.671	602	5	3	8	608	14541	15140	0.0	1072
+
+Results for BTT238_ALBA-3R_7984908_052 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT239_ALBA-3R_7984908_050 (trimmed).fa (Albula vulpes):
+BTT239_ALBA-3R_7984908_050_(trimmed)	NC_082992.1	98.660	597	4	4	1	597	14548	15140	0.0	1062
+
+Results for BTT239_ALBA-3R_7984908_050 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT240_ALBA-3R_7984908_079 (trimmed).fa (Albula vulpes):
+BTT240_ALBA-3R_7984908_079_(trimmed)	NC_082992.1	98.525	610	3	6	7	615	14541	15145	0.0	1075
+
+Results for BTT240_ALBA-3R_7984908_079 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT241_ALBA-3R_7984908_077 (trimmed).fa (Albula vulpes):
+BTT241_ALBA-3R_7984908_077_(trimmed)	NC_082992.1	98.347	605	4	6	7	610	14541	15140	0.0	1062
+
+Results for BTT241_ALBA-3R_7984908_077 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT259_ALBA-3R_7984908_075 (trimmed).fa (Albula vulpes):
+BTT259_ALBA-3R_7984908_075_(trimmed)	NC_082992.1	98.203	612	6	5	8	618	14541	15148	0.0	1072
+
+Results for BTT259_ALBA-3R_7984908_075 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT260_ALBA-3R_7984908_073 (trimmed).fa (Albula vulpes):
+BTT260_ALBA-3R_7984908_073_(trimmed)	NC_082992.1	98.350	606	3	6	13	618	14547	15145	0.0	1061
+
+Results for BTT260_ALBA-3R_7984908_073 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT263_ALBA-3R_7984908_071 (trimmed).fa (Albula vulpes):
+BTT263_ALBA-3R_7984908_071_(trimmed)	NC_082992.1	98.206	613	5	6	8	619	14541	15148	0.0	1074
+
+Results for BTT263_ALBA-3R_7984908_071 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT272_ALBA-3R_7984908_069 (trimmed).fa (Albula vulpes):
+BTT272_ALBA-3R_7984908_069_(trimmed)	NC_082992.1	98.671	602	4	4	1	602	14548	15145	0.0	1070
+
+Results for BTT272_ALBA-3R_7984908_069 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT278_ALBA-3R_7984908_067 (trimmed).fa (Albula vulpes):
+BTT278_ALBA-3R_7984908_067_(trimmed)	NC_082992.1	98.197	610	5	6	1	609	14541	15145	0.0	1066
+
+Results for BTT278_ALBA-3R_7984908_067 (trimmed).fa (Albula goreensis):
+BTT278_ALBA-3R_7984908_067_(trimmed)	ON993809.1	88.815	599	61	6	6	603	131	724	0.0	736
+
+
+Results for BTT279_ALBA-3R_7984908_065 (trimmed).fa (Albula vulpes):
+BTT279_ALBA-3R_7984908_065_(trimmed)	NC_082992.1	98.510	604	4	5	2	605	14547	15145	0.0	1066
+
+Results for BTT279_ALBA-3R_7984908_065 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT280_ALBA-3R_7984908_080 (trimmed).fa (Albula vulpes):
+BTT280_ALBA-3R_7984908_080_(trimmed)	NC_082992.1	98.525	610	3	6	1	609	14541	15145	0.0	1075
+
+Results for BTT280_ALBA-3R_7984908_080 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT281_ALBA-3R_7984908_076 (trimmed).fa (Albula vulpes):
+BTT281_ALBA-3R_7984908_076_(trimmed)	NC_082992.1	98.522	609	4	5	7	614	14541	15145	0.0	1075
+
+Results for BTT281_ALBA-3R_7984908_076 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT282_ALBA-3R_7984908_074 (trimmed).fa (Albula vulpes):
+BTT282_ALBA-3R_7984908_074_(trimmed)	NC_082992.1	98.671	602	4	4	1	602	14548	15145	0.0	1070
+
+Results for BTT282_ALBA-3R_7984908_074 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT283_ALBA-3R_7984908_072 (trimmed).fa (Albula vulpes):
+BTT283_ALBA-3R_7984908_072_(trimmed)	NC_082992.1	98.347	605	4	5	1	605	14547	15145	0.0	1062
+
+Results for BTT283_ALBA-3R_7984908_072 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT284_ALBA-3R_7984908_070 (trimmed).fa (Albula vulpes):
+BTT284_ALBA-3R_7984908_070_(trimmed)	NC_082992.1	98.527	611	2	7	7	616	14541	15145	0.0	1075
+
+Results for BTT284_ALBA-3R_7984908_070 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT285_ALBA-3R_7984908_068 (trimmed).fa (Albula vulpes):
+BTT285_ALBA-3R_7984908_068_(trimmed)	NC_082992.1	98.039	612	5	6	1	612	14541	15145	0.0	1062
+
+Results for BTT285_ALBA-3R_7984908_068 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT286_ALBA-3R_7984908_066 (trimmed).fa (Albula vulpes):
+BTT286_ALBA-3R_7984908_066_(trimmed)	NC_082992.1	98.507	603	4	4	1	603	14548	15145	0.0	1064
+
+Results for BTT286_ALBA-3R_7984908_066 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT287_ALBA-3R_7984908_095 (trimmed).fa (Albula vulpes):
+BTT287_ALBA-3R_7984908_095_(trimmed)	NC_082992.1	98.525	610	3	6	8	616	14541	15145	0.0	1077
+
+Results for BTT287_ALBA-3R_7984908_095 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT288_ALBA-3R_7984908_093 (trimmed).fa (Albula vulpes):
+BTT288_ALBA-3R_7984908_093_(trimmed)	NC_082992.1	98.520	608	3	6	1	607	14543	15145	0.0	1072
+
+Results for BTT288_ALBA-3R_7984908_093 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT290_ALBA-3R_7984908_091 (trimmed).fa (Albula vulpes):
+BTT290_ALBA-3R_7984908_091_(trimmed)	NC_082992.1	98.522	609	3	6	1	608	14541	15144	0.0	1075
+
+Results for BTT290_ALBA-3R_7984908_091 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT291_ALBA-3R_7984908_089 (trimmed).fa (Albula vulpes):
+BTT291_ALBA-3R_7984908_089_(trimmed)	NC_082992.1	98.675	604	3	5	2	605	14547	15145	0.0	1072
+
+Results for BTT291_ALBA-3R_7984908_089 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT292_ALBA-3R_7984908_087 (trimmed).fa (Albula vulpes):
+BTT292_ALBA-3R_7984908_087_(trimmed)	NC_082992.1	98.507	603	5	4	1	602	14541	15140	0.0	1068
+
+Results for BTT292_ALBA-3R_7984908_087 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT293_ALBA-3R_7984908_085 (trimmed).fa (Albula vulpes):
+BTT293_ALBA-3R_7984908_085_(trimmed)	NC_082992.1	98.678	605	5	3	1	604	14543	15145	0.0	1075
+
+Results for BTT293_ALBA-3R_7984908_085 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT294_ALBA-3R_7984908_083 (trimmed).fa (Albula vulpes):
+BTT294_ALBA-3R_7984908_083_(trimmed)	NC_082992.1	98.527	611	2	6	8	617	14541	15145	0.0	1075
+
+Results for BTT294_ALBA-3R_7984908_083 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT295_ALBA-3R_7984908_081 (trimmed).fa (Albula vulpes):
+BTT295_ALBA-3R_7984908_081_(trimmed)	NC_082992.1	98.382	618	4	6	2	616	14534	15148	0.0	1088
+
+Results for BTT295_ALBA-3R_7984908_081 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT296_ALBA-3R_7984908_096 (trimmed).fa (Albula vulpes):
+BTT296_ALBA-3R_7984908_096_(trimmed)	NC_082992.1	98.353	607	6	4	1	606	14541	15144	0.0	1070
+
+Results for BTT296_ALBA-3R_7984908_096 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT297_ALBA-3R_7984908_094 (trimmed).fa (Albula vulpes):
+BTT297_ALBA-3R_7984908_094_(trimmed)	NC_082992.1	98.342	603	4	6	1	603	14548	15144	0.0	1059
+
+Results for BTT297_ALBA-3R_7984908_094 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT298_ALBA-3R_7984908_092 (trimmed).fa (Albula vulpes):
+BTT298_ALBA-3R_7984908_092_(trimmed)	NC_082992.1	98.527	611	3	5	8	618	14541	15145	0.0	1077
+
+Results for BTT298_ALBA-3R_7984908_092 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT300_ALBA-3R_7984908_090 (trimmed).fa (Albula vulpes):
+BTT300_ALBA-3R_7984908_090_(trimmed)	NC_082992.1	98.355	608	4	6	1	607	14543	15145	0.0	1066
+
+Results for BTT300_ALBA-3R_7984908_090 (trimmed).fa (Albula goreensis):
+
+
+Results for BTT302_ALBA-3R_7984908_088 (trimmed).fa (Albula vulpes):
+BTT302_ALBA-3R_7984908_088_(trimmed)	NC_082992.1	98.197	610	5	5	7	615	14541	15145	0.0	1064
+
+Results for BTT302_ALBA-3R_7984908_088 (trimmed).fa (Albula goreensis):
+BTT302_ALBA-3R_7984908_088_(trimmed)	ON993809.1	88.815	599	61	5	12	609	131	724	0.0	734
+
+
+Results for BTT317_ALBA-3R_7984908_084 (trimmed).fa (Albula vulpes):
+BTT317_ALBA-3R_7984908_084_(trimmed)	NC_082992.1	98.042	613	3	8	5	616	14541	15145	0.0	1062
+
+Results for BTT317_ALBA-3R_7984908_084 (trimmed).fa (Albula goreensis):
+
+
