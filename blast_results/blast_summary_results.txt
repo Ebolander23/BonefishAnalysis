@@ -2,552 +2,966 @@ BLAST Summary Results
 =====================
 
 Query ID	Subject ID	% Identity	Alignment Length	Mismatches	Gap Openings	Query Start	Query End	Subject Start	Subject End	E-value	Bit Score
----------	----------	-----------	----------------	-----------	------------	-----------	---------	-------------	-----------	-------	---------
+Results for a_CONTROL_glossodonta.fa (vulpes):
+AP002973.1	NC_082992.1	87.094	15876	1972	57	1	15827	1	15848	0.0	17895
 
--3R assembly consensus.fa (Albula goreensis):
-BTT046_ALBA-3R_assembly_Albula_goreensis_voucher_TFJ-08_cytochrome_b_gene,_partial_cds;_mitochondrial._consensus	ON993809.1	99.801	502	1	0	1	502	130	631	0.0	922
+Results for a_CONTROL_glossodonta.fa (goreensis):
 
+Results for a_CONTROL_glossodonta.fa (nemoptera):
 
-Results for BTT060_ALBA-3R_7984908_013 (trimmed).fa (Albula vulpes):
+Results for a_CONTROL_glossodonta.fa (glossodonta):
+AP002973.1	AP002973.1	100.000	16255	0	0	1	16255	1	16255	0.0	30018
+
+Results for a_CONTROL_goreensis.fa (vulpes):
+
+Results for a_CONTROL_goreensis.fa (goreensis):
+OP546168.1	OP546168.1	100.000	619	0	0	1	619	1	619	0.0	1144
+
+Results for a_CONTROL_goreensis.fa (nemoptera):
+OP546168.1	AF311754.1	87.918	538	65	0	53	590	2	539	0.0	634
+
+Results for a_CONTROL_goreensis.fa (glossodonta):
+
+Results for a_CONTROL_nemoptera.fa (vulpes):
+
+Results for a_CONTROL_nemoptera.fa (goreensis):
+AF311754.1	OP546168.1	87.918	538	65	0	2	539	53	590	0.0	634
+
+Results for a_CONTROL_nemoptera.fa (nemoptera):
+AF311754.1	AF311754.1	100.000	539	0	0	1	539	1	539	0.0	996
+
+Results for a_CONTROL_nemoptera.fa (glossodonta):
+
+Results for a_CONTROL_vulpes.fa (vulpes):
+NC_082992.1	NC_082992.1	100.000	16357	0	0	1	16357	1	16357	0.0	30206
+
+Results for a_CONTROL_vulpes.fa (goreensis):
+
+Results for a_CONTROL_vulpes.fa (nemoptera):
+
+Results for a_CONTROL_vulpes.fa (glossodonta):
+NC_082992.1	AP002973.1	87.092	15874	1976	53	1	15848	1	15827	0.0	17895
+
+Results for BTT003_ALBA-3R_7984908_015 (trimmed).fa (vulpes):
+BTT003_ALBA-3R_7984908_015_(trimmed)	NC_082992.1	97.890	616	3	9	5	619	14539	15145	0.0	1061
+
+Results for BTT003_ALBA-3R_7984908_015 (trimmed).fa (goreensis):
+
+Results for BTT003_ALBA-3R_7984908_015 (trimmed).fa (nemoptera):
+
+Results for BTT003_ALBA-3R_7984908_015 (trimmed).fa (glossodonta):
+BTT003_ALBA-3R_7984908_015_(trimmed)	AP002973.1	81.759	614	102	9	6	618	14522	15126	6.06e-147	508
+
+Results for BTT046_ALBA-3R assembly consensus.fa (vulpes):
+
+Results for BTT046_ALBA-3R assembly consensus.fa (goreensis):
+BTT046_ALBA-3R_assembly_Albula_goreensis_voucher_TFJ-08_cytochrome_b_gene,_partial_cds;_mitochondrial._consensus	OP546168.1	99.801	502	1	0	1	502	73	574	0.0	922
+
+Results for BTT046_ALBA-3R assembly consensus.fa (nemoptera):
+BTT046_ALBA-3R_assembly_Albula_goreensis_voucher_TFJ-08_cytochrome_b_gene,_partial_cds;_mitochondrial._consensus	AF311754.1	87.849	502	61	0	1	502	22	523	5.56e-173	590
+
+Results for BTT046_ALBA-3R assembly consensus.fa (glossodonta):
+
+Results for BTT060_ALBA-3R_7984908_013 (trimmed).fa (vulpes):
 BTT060_ALBA-3R_7984908_013_(trimmed)	NC_082992.1	98.689	610	2	5	7	615	14541	15145	0.0	1079
 
-Results for BTT060_ALBA-3R_7984908_013 (trimmed).fa (Albula goreensis):
+Results for BTT060_ALBA-3R_7984908_013 (trimmed).fa (goreensis):
 
+Results for BTT060_ALBA-3R_7984908_013 (trimmed).fa (nemoptera):
 
-Results for BTT061_ALBA-3R_7984908_011 (trimmed).fa (Albula vulpes):
+Results for BTT060_ALBA-3R_7984908_013 (trimmed).fa (glossodonta):
+BTT060_ALBA-3R_7984908_013_(trimmed)	AP002973.1	82.724	602	99	4	13	614	14530	15126	1.30e-153	531
+
+Results for BTT061_ALBA-3R_7984908_011 (trimmed).fa (vulpes):
 BTT061_ALBA-3R_7984908_011_(trimmed)	NC_082992.1	98.525	610	3	6	8	616	14541	15145	0.0	1075
 
-Results for BTT061_ALBA-3R_7984908_011 (trimmed).fa (Albula goreensis):
+Results for BTT061_ALBA-3R_7984908_011 (trimmed).fa (goreensis):
 
+Results for BTT061_ALBA-3R_7984908_011 (trimmed).fa (nemoptera):
 
-Results for BTT064_ALBA-3R_7984908_009 (trimmed).fa (Albula vulpes):
+Results for BTT061_ALBA-3R_7984908_011 (trimmed).fa (glossodonta):
+BTT061_ALBA-3R_7984908_011_(trimmed)	AP002973.1	82.724	602	99	5	14	615	14530	15126	3.62e-154	532
+
+Results for BTT064_ALBA-3R_7984908_009 (trimmed).fa (vulpes):
 BTT064_ALBA-3R_7984908_009_(trimmed)	NC_082992.1	98.851	609	2	5	8	615	14541	15145	0.0	1085
 
-Results for BTT064_ALBA-3R_7984908_009 (trimmed).fa (Albula goreensis):
+Results for BTT064_ALBA-3R_7984908_009 (trimmed).fa (goreensis):
 
+Results for BTT064_ALBA-3R_7984908_009 (trimmed).fa (nemoptera):
 
-Results for BTT079_ALBA-3R_7984908_007 (trimmed).fa (Albula vulpes):
+Results for BTT064_ALBA-3R_7984908_009 (trimmed).fa (glossodonta):
+BTT064_ALBA-3R_7984908_009_(trimmed)	AP002973.1	82.673	606	100	5	10	614	14525	15126	2.77e-155	536
+
+Results for BTT079_ALBA-3R_7984908_007 (trimmed).fa (vulpes):
 BTT079_ALBA-3R_7984908_007_(trimmed)	NC_082992.1	98.185	606	4	6	1	605	14541	15140	0.0	1059
 
-Results for BTT079_ALBA-3R_7984908_007 (trimmed).fa (Albula goreensis):
+Results for BTT079_ALBA-3R_7984908_007 (trimmed).fa (goreensis):
 
+Results for BTT079_ALBA-3R_7984908_007 (trimmed).fa (nemoptera):
 
-Results for BTT081_ALBA-3R_7984908_005 (trimmed).fa (Albula vulpes):
+Results for BTT079_ALBA-3R_7984908_007 (trimmed).fa (glossodonta):
+BTT079_ALBA-3R_7984908_007_(trimmed)	AP002973.1	82.304	599	99	6	3	600	14525	15117	2.74e-150	520
+
+Results for BTT081_ALBA-3R_7984908_005 (trimmed).fa (vulpes):
 BTT081_ALBA-3R_7984908_005_(trimmed)	NC_082992.1	98.363	611	3	6	8	617	14541	15145	0.0	1070
 
-Results for BTT081_ALBA-3R_7984908_005 (trimmed).fa (Albula goreensis):
+Results for BTT081_ALBA-3R_7984908_005 (trimmed).fa (goreensis):
 
+Results for BTT081_ALBA-3R_7984908_005 (trimmed).fa (nemoptera):
 
-Results for BTT083_ALBA-3R_7984908_003 (trimmed).fa (Albula vulpes):
+Results for BTT081_ALBA-3R_7984908_005 (trimmed).fa (glossodonta):
+BTT081_ALBA-3R_7984908_005_(trimmed)	AP002973.1	82.587	603	99	5	14	616	14530	15126	4.64e-153	529
+
+Results for BTT083_ALBA-3R_7984908_003 (trimmed).fa (vulpes):
 BTT083_ALBA-3R_7984908_003_(trimmed)	NC_082992.1	98.795	581	5	2	1	581	14567	15145	0.0	1040
 
-Results for BTT083_ALBA-3R_7984908_003 (trimmed).fa (Albula goreensis):
+Results for BTT083_ALBA-3R_7984908_003 (trimmed).fa (goreensis):
 
+Results for BTT083_ALBA-3R_7984908_003 (trimmed).fa (nemoptera):
 
-Results for BTT085_ALBA-3R_7984908_001 (trimmed).fa (Albula vulpes):
+Results for BTT083_ALBA-3R_7984908_003 (trimmed).fa (glossodonta):
+BTT083_ALBA-3R_7984908_003_(trimmed)	AP002973.1	82.586	580	99	2	1	580	14549	15126	9.52e-150	518
+
+Results for BTT085_ALBA-3R_7984908_001 (trimmed).fa (vulpes):
 BTT085_ALBA-3R_7984908_001_(trimmed)	NC_082992.1	97.260	511	6	7	1	509	14535	15039	0.0	867
 
-Results for BTT085_ALBA-3R_7984908_001 (trimmed).fa (Albula goreensis):
+Results for BTT085_ALBA-3R_7984908_001 (trimmed).fa (goreensis):
 
+Results for BTT085_ALBA-3R_7984908_001 (trimmed).fa (nemoptera):
 
-Results for BTT086_ALBA-3R_7984908_016 (trimmed).fa (Albula vulpes):
+Results for BTT085_ALBA-3R_7984908_001 (trimmed).fa (glossodonta):
+BTT085_ALBA-3R_7984908_001_(trimmed)	AP002973.1	82.365	499	76	8	11	506	14529	15018	5.14e-122	425
+
+Results for BTT086_ALBA-3R_7984908_016 (trimmed).fa (vulpes):
 BTT086_ALBA-3R_7984908_016_(trimmed)	NC_082992.1	98.203	612	3	7	5	615	14541	15145	0.0	1068
 
-Results for BTT086_ALBA-3R_7984908_016 (trimmed).fa (Albula goreensis):
+Results for BTT086_ALBA-3R_7984908_016 (trimmed).fa (goreensis):
 
+Results for BTT086_ALBA-3R_7984908_016 (trimmed).fa (nemoptera):
 
-Results for BTT087_ALBA-3R_7984908_014 (trimmed).fa (Albula vulpes):
+Results for BTT086_ALBA-3R_7984908_016 (trimmed).fa (glossodonta):
+BTT086_ALBA-3R_7984908_016_(trimmed)	AP002973.1	82.266	609	100	7	7	614	14525	15126	6.04e-152	525
+
+Results for BTT087_ALBA-3R_7984908_014 (trimmed).fa (vulpes):
 BTT087_ALBA-3R_7984908_014_(trimmed)	NC_082992.1	98.839	603	3	4	5	606	14541	15140	0.0	1075
 
-Results for BTT087_ALBA-3R_7984908_014 (trimmed).fa (Albula goreensis):
+Results for BTT087_ALBA-3R_7984908_014 (trimmed).fa (goreensis):
 
+Results for BTT087_ALBA-3R_7984908_014 (trimmed).fa (nemoptera):
 
-Results for BTT092_ALBA-3R_7984908_012 (trimmed).fa (Albula vulpes):
+Results for BTT087_ALBA-3R_7984908_014 (trimmed).fa (glossodonta):
+BTT087_ALBA-3R_7984908_014_(trimmed)	AP002973.1	83.163	588	96	3	11	598	14530	15114	2.76e-155	536
+
+Results for BTT092_ALBA-3R_7984908_012 (trimmed).fa (vulpes):
 BTT092_ALBA-3R_7984908_012_(trimmed)	NC_082992.1	98.525	610	3	6	1	609	14541	15145	0.0	1077
 
-Results for BTT092_ALBA-3R_7984908_012 (trimmed).fa (Albula goreensis):
+Results for BTT092_ALBA-3R_7984908_012 (trimmed).fa (goreensis):
 
+Results for BTT092_ALBA-3R_7984908_012 (trimmed).fa (nemoptera):
 
-Results for BTT093_ALBA-3R_7984908_010 (trimmed).fa (Albula vulpes):
+Results for BTT092_ALBA-3R_7984908_012 (trimmed).fa (glossodonta):
+BTT092_ALBA-3R_7984908_012_(trimmed)	AP002973.1	82.558	602	100	5	7	608	14530	15126	4.62e-153	529
+
+Results for BTT093_ALBA-3R_7984908_010 (trimmed).fa (vulpes):
 BTT093_ALBA-3R_7984908_010_(trimmed)	NC_082992.1	98.361	610	4	5	8	616	14541	15145	0.0	1072
 
-Results for BTT093_ALBA-3R_7984908_010 (trimmed).fa (Albula goreensis):
+Results for BTT093_ALBA-3R_7984908_010 (trimmed).fa (goreensis):
 
+Results for BTT093_ALBA-3R_7984908_010 (trimmed).fa (nemoptera):
 
-Results for BTT094_ALBA-3R_7984908_008 (trimmed).fa (Albula vulpes):
+Results for BTT093_ALBA-3R_7984908_010 (trimmed).fa (glossodonta):
+BTT093_ALBA-3R_7984908_010_(trimmed)	AP002973.1	82.372	607	101	5	10	615	14525	15126	4.68e-153	529
+
+Results for BTT094_ALBA-3R_7984908_008 (trimmed).fa (vulpes):
 BTT094_ALBA-3R_7984908_008_(trimmed)	NC_082992.1	98.673	603	3	5	1	603	14548	15145	0.0	1070
 
-Results for BTT094_ALBA-3R_7984908_008 (trimmed).fa (Albula goreensis):
+Results for BTT094_ALBA-3R_7984908_008 (trimmed).fa (goreensis):
 
+Results for BTT094_ALBA-3R_7984908_008 (trimmed).fa (nemoptera):
 
-Results for BTT095_ALBA-3R_7984908_006 (trimmed).fa (Albula vulpes):
+Results for BTT094_ALBA-3R_7984908_008 (trimmed).fa (glossodonta):
+BTT094_ALBA-3R_7984908_008_(trimmed)	AP002973.1	82.392	602	101	5	1	602	14530	15126	5.92e-152	525
+
+Results for BTT095_ALBA-3R_7984908_006 (trimmed).fa (vulpes):
 BTT095_ALBA-3R_7984908_006_(trimmed)	NC_082992.1	98.684	608	4	4	8	614	14541	15145	0.0	1081
 
-Results for BTT095_ALBA-3R_7984908_006 (trimmed).fa (Albula goreensis):
+Results for BTT095_ALBA-3R_7984908_006 (trimmed).fa (goreensis):
 
+Results for BTT095_ALBA-3R_7984908_006 (trimmed).fa (nemoptera):
 
-Results for BTT096_ALBA-3R_7984908_004 (trimmed).fa (Albula vulpes):
+Results for BTT095_ALBA-3R_7984908_006 (trimmed).fa (glossodonta):
+BTT095_ALBA-3R_7984908_006_(trimmed)	AP002973.1	82.833	600	100	3	14	613	14530	15126	7.67e-156	538
+
+Results for BTT096_ALBA-3R_7984908_004 (trimmed).fa (vulpes):
 BTT096_ALBA-3R_7984908_004_(trimmed)	NC_082992.1	98.839	603	2	5	5	607	14548	15145	0.0	1074
 
-Results for BTT096_ALBA-3R_7984908_004 (trimmed).fa (Albula goreensis):
+Results for BTT096_ALBA-3R_7984908_004 (trimmed).fa (goreensis):
 
+Results for BTT096_ALBA-3R_7984908_004 (trimmed).fa (nemoptera):
 
-Results for BTT097_ALBA-3R_7984908_002 (trimmed).fa (Albula vulpes):
+Results for BTT096_ALBA-3R_7984908_004 (trimmed).fa (glossodonta):
+BTT096_ALBA-3R_7984908_004_(trimmed)	AP002973.1	82.558	602	100	5	5	606	14530	15126	4.61e-153	529
+
+Results for BTT097_ALBA-3R_7984908_002 (trimmed).fa (vulpes):
 BTT097_ALBA-3R_7984908_002_(trimmed)	NC_082992.1	98.527	611	5	4	3	612	14541	15148	0.0	1083
 
-Results for BTT097_ALBA-3R_7984908_002 (trimmed).fa (Albula goreensis):
+Results for BTT097_ALBA-3R_7984908_002 (trimmed).fa (goreensis):
 
+Results for BTT097_ALBA-3R_7984908_002 (trimmed).fa (nemoptera):
 
-Results for BTT098_ALBA-3R_7984908_031 (trimmed).fa (Albula vulpes):
+Results for BTT097_ALBA-3R_7984908_002 (trimmed).fa (glossodonta):
+BTT097_ALBA-3R_7984908_002_(trimmed)	AP002973.1	82.833	600	100	3	9	608	14530	15126	7.67e-156	538
+
+Results for BTT098_ALBA-3R_7984908_031 (trimmed).fa (vulpes):
 BTT098_ALBA-3R_7984908_031_(trimmed)	NC_082992.1	98.039	612	4	8	5	615	14541	15145	0.0	1062
 
-Results for BTT098_ALBA-3R_7984908_031 (trimmed).fa (Albula goreensis):
+Results for BTT098_ALBA-3R_7984908_031 (trimmed).fa (goreensis):
 
+Results for BTT098_ALBA-3R_7984908_031 (trimmed).fa (nemoptera):
 
-Results for BTT099_ALBA-3R_7984908_029 (trimmed).fa (Albula vulpes):
+Results for BTT098_ALBA-3R_7984908_031 (trimmed).fa (glossodonta):
+BTT098_ALBA-3R_7984908_031_(trimmed)	AP002973.1	82.102	609	101	8	7	614	14525	15126	2.80e-150	520
+
+Results for BTT099_ALBA-3R_7984908_029 (trimmed).fa (vulpes):
 BTT099_ALBA-3R_7984908_029_(trimmed)	NC_082992.1	98.522	609	4	5	8	615	14541	15145	0.0	1075
 
-Results for BTT099_ALBA-3R_7984908_029 (trimmed).fa (Albula goreensis):
+Results for BTT099_ALBA-3R_7984908_029 (trimmed).fa (goreensis):
 
+Results for BTT099_ALBA-3R_7984908_029 (trimmed).fa (nemoptera):
 
-Results for BTT100_ALBA-3R_7984908_027 (trimmed).fa (Albula vulpes):
+Results for BTT099_ALBA-3R_7984908_029 (trimmed).fa (glossodonta):
+BTT099_ALBA-3R_7984908_029_(trimmed)	AP002973.1	82.696	601	100	4	14	614	14530	15126	9.94e-155	534
+
+Results for BTT100_ALBA-3R_7984908_027 (trimmed).fa (vulpes):
 BTT100_ALBA-3R_7984908_027_(trimmed)	NC_082992.1	98.049	615	4	7	5	618	14541	15148	0.0	1068
 
-Results for BTT100_ALBA-3R_7984908_027 (trimmed).fa (Albula goreensis):
+Results for BTT100_ALBA-3R_7984908_027 (trimmed).fa (goreensis):
 
+Results for BTT100_ALBA-3R_7984908_027 (trimmed).fa (nemoptera):
 
-Results for BTT102_ALBA-3R_7984908_025 (trimmed).fa (Albula vulpes):
+Results for BTT100_ALBA-3R_7984908_027 (trimmed).fa (glossodonta):
+BTT100_ALBA-3R_7984908_027_(trimmed)	AP002973.1	82.266	609	100	7	7	614	14525	15126	2.17e-151	523
+
+Results for BTT102_ALBA-3R_7984908_025 (trimmed).fa (vulpes):
 BTT102_ALBA-3R_7984908_025_(trimmed)	NC_082992.1	98.507	603	5	4	8	609	14541	15140	0.0	1068
 
-Results for BTT102_ALBA-3R_7984908_025 (trimmed).fa (Albula goreensis):
+Results for BTT102_ALBA-3R_7984908_025 (trimmed).fa (goreensis):
 
+Results for BTT102_ALBA-3R_7984908_025 (trimmed).fa (nemoptera):
 
-Results for BTT111_ALBA-3R_7984908_023 (trimmed).fa (Albula vulpes):
+Results for BTT102_ALBA-3R_7984908_025 (trimmed).fa (glossodonta):
+BTT102_ALBA-3R_7984908_025_(trimmed)	AP002973.1	82.823	588	98	3	14	601	14530	15114	4.58e-153	529
+
+Results for BTT111_ALBA-3R_7984908_023 (trimmed).fa (vulpes):
 BTT111_ALBA-3R_7984908_023_(trimmed)	NC_082992.1	99.005	603	2	4	13	615	14547	15145	0.0	1079
 
-Results for BTT111_ALBA-3R_7984908_023 (trimmed).fa (Albula goreensis):
+Results for BTT111_ALBA-3R_7984908_023 (trimmed).fa (goreensis):
 
+Results for BTT111_ALBA-3R_7984908_023 (trimmed).fa (nemoptera):
 
-Results for BTT112_ALBA-3R_7984908_021 (trimmed).fa (Albula vulpes):
+Results for BTT111_ALBA-3R_7984908_023 (trimmed).fa (glossodonta):
+BTT111_ALBA-3R_7984908_023_(trimmed)	AP002973.1	82.890	602	99	4	13	614	14529	15126	2.15e-156	540
+
+Results for BTT112_ALBA-3R_7984908_021 (trimmed).fa (vulpes):
 BTT112_ALBA-3R_7984908_021_(trimmed)	NC_082992.1	98.344	604	5	5	1	603	14541	15140	0.0	1062
 
-Results for BTT112_ALBA-3R_7984908_021 (trimmed).fa (Albula goreensis):
+Results for BTT112_ALBA-3R_7984908_021 (trimmed).fa (goreensis):
 
+Results for BTT112_ALBA-3R_7984908_021 (trimmed).fa (nemoptera):
 
-Results for BTT145_ALBA-3R_7984908_017 (trimmed).fa (Albula vulpes):
+Results for BTT112_ALBA-3R_7984908_021 (trimmed).fa (glossodonta):
+BTT112_ALBA-3R_7984908_021_(trimmed)	AP002973.1	82.683	589	98	4	7	595	14530	15114	5.86e-152	525
+
+Results for BTT145_ALBA-3R_7984908_017 (trimmed).fa (vulpes):
 BTT145_ALBA-3R_7984908_017_(trimmed)	NC_082992.1	98.061	619	3	9	2	618	14534	15145	0.0	1070
 
-Results for BTT145_ALBA-3R_7984908_017 (trimmed).fa (Albula goreensis):
+Results for BTT145_ALBA-3R_7984908_017 (trimmed).fa (goreensis):
 
+Results for BTT145_ALBA-3R_7984908_017 (trimmed).fa (nemoptera):
 
-Results for BTT146_ALBA-3R_7984908_032 (trimmed).fa (Albula vulpes):
+Results for BTT145_ALBA-3R_7984908_017 (trimmed).fa (glossodonta):
+BTT145_ALBA-3R_7984908_017_(trimmed)	AP002973.1	82.314	605	100	7	13	617	14529	15126	2.82e-150	520
+
+Results for BTT146_ALBA-3R_7984908_032 (trimmed).fa (vulpes):
 BTT146_ALBA-3R_7984908_032_(trimmed)	NC_082992.1	98.507	603	5	4	7	608	14541	15140	0.0	1068
 
-Results for BTT146_ALBA-3R_7984908_032 (trimmed).fa (Albula goreensis):
+Results for BTT146_ALBA-3R_7984908_032 (trimmed).fa (goreensis):
 
+Results for BTT146_ALBA-3R_7984908_032 (trimmed).fa (nemoptera):
 
-Results for BTT148_ALBA-3R_7984908_030 (trimmed).fa (Albula vulpes):
+Results for BTT146_ALBA-3R_7984908_032 (trimmed).fa (glossodonta):
+BTT146_ALBA-3R_7984908_032_(trimmed)	AP002973.1	82.823	588	98	3	13	600	14530	15114	4.57e-153	529
+
+Results for BTT148_ALBA-3R_7984908_030 (trimmed).fa (vulpes):
 BTT148_ALBA-3R_7984908_030_(trimmed)	NC_082992.1	98.200	611	4	6	5	614	14541	15145	0.0	1066
 
-Results for BTT148_ALBA-3R_7984908_030 (trimmed).fa (Albula goreensis):
+Results for BTT148_ALBA-3R_7984908_030 (trimmed).fa (goreensis):
 
+Results for BTT148_ALBA-3R_7984908_030 (trimmed).fa (nemoptera):
 
-Results for BTT149_ALBA-3R_7984908_028 (trimmed).fa (Albula vulpes):
+Results for BTT148_ALBA-3R_7984908_030 (trimmed).fa (glossodonta):
+BTT148_ALBA-3R_7984908_030_(trimmed)	AP002973.1	82.421	603	100	5	11	613	14530	15126	6.02e-152	525
+
+Results for BTT149_ALBA-3R_7984908_028 (trimmed).fa (vulpes):
 BTT149_ALBA-3R_7984908_028_(trimmed)	NC_082992.1	98.361	610	4	5	8	616	14541	15145	0.0	1072
 
-Results for BTT149_ALBA-3R_7984908_028 (trimmed).fa (Albula goreensis):
+Results for BTT149_ALBA-3R_7984908_028 (trimmed).fa (goreensis):
 
+Results for BTT149_ALBA-3R_7984908_028 (trimmed).fa (nemoptera):
 
-Results for BTT163_ALBA-3R_7984908_026 (trimmed).fa (Albula vulpes):
+Results for BTT149_ALBA-3R_7984908_028 (trimmed).fa (glossodonta):
+BTT149_ALBA-3R_7984908_028_(trimmed)	AP002973.1	82.558	602	100	4	14	615	14530	15126	4.68e-153	529
+
+Results for BTT163_ALBA-3R_7984908_026 (trimmed).fa (vulpes):
 BTT163_ALBA-3R_7984908_026_(trimmed)	NC_082992.1	99.003	602	2	4	12	612	14547	15145	0.0	1077
 
-Results for BTT163_ALBA-3R_7984908_026 (trimmed).fa (Albula goreensis):
+Results for BTT163_ALBA-3R_7984908_026 (trimmed).fa (goreensis):
 
+Results for BTT163_ALBA-3R_7984908_026 (trimmed).fa (nemoptera):
 
-Results for BTT164_ALBA-3R_7984908_024 (trimmed).fa (Albula vulpes):
+Results for BTT163_ALBA-3R_7984908_026 (trimmed).fa (glossodonta):
+BTT163_ALBA-3R_7984908_026_(trimmed)	AP002973.1	82.862	601	99	4	12	611	14529	15126	7.72e-156	538
+
+Results for BTT164_ALBA-3R_7984908_024 (trimmed).fa (vulpes):
 BTT164_ALBA-3R_7984908_024_(trimmed)	NC_082992.1	98.369	613	4	5	5	616	14541	15148	0.0	1075
 
-Results for BTT164_ALBA-3R_7984908_024 (trimmed).fa (Albula goreensis):
+Results for BTT164_ALBA-3R_7984908_024 (trimmed).fa (goreensis):
 
+Results for BTT164_ALBA-3R_7984908_024 (trimmed).fa (nemoptera):
 
-Results for BTT165_ALBA-3R_7984908_022 (trimmed).fa (Albula vulpes):
+Results for BTT164_ALBA-3R_7984908_024 (trimmed).fa (glossodonta):
+BTT164_ALBA-3R_7984908_024_(trimmed)	AP002973.1	82.372	607	101	5	7	612	14525	15126	6.01e-152	525
+
+Results for BTT165_ALBA-3R_7984908_022 (trimmed).fa (vulpes):
 BTT165_ALBA-3R_7984908_022_(trimmed)	NC_082992.1	98.839	603	3	4	10	612	14547	15145	0.0	1075
 
-Results for BTT165_ALBA-3R_7984908_022 (trimmed).fa (Albula goreensis):
+Results for BTT165_ALBA-3R_7984908_022 (trimmed).fa (goreensis):
 
+Results for BTT165_ALBA-3R_7984908_022 (trimmed).fa (nemoptera):
 
-Results for BTT166_ALBA-3R_7984908_020 (trimmed).fa (Albula vulpes):
+Results for BTT165_ALBA-3R_7984908_022 (trimmed).fa (glossodonta):
+BTT165_ALBA-3R_7984908_022_(trimmed)	AP002973.1	82.724	602	100	4	10	611	14529	15126	2.75e-155	536
+
+Results for BTT166_ALBA-3R_7984908_020 (trimmed).fa (vulpes):
 BTT166_ALBA-3R_7984908_020_(trimmed)	NC_082992.1	98.529	612	4	5	1	611	14541	15148	0.0	1083
 
-Results for BTT166_ALBA-3R_7984908_020 (trimmed).fa (Albula goreensis):
+Results for BTT166_ALBA-3R_7984908_020 (trimmed).fa (goreensis):
 
+Results for BTT166_ALBA-3R_7984908_020 (trimmed).fa (nemoptera):
 
-Results for BTT167_ALBA-3R_7984908_018 (trimmed).fa (Albula vulpes):
+Results for BTT166_ALBA-3R_7984908_020 (trimmed).fa (glossodonta):
+BTT166_ALBA-3R_7984908_020_(trimmed)	AP002973.1	82.696	601	100	4	7	607	14530	15126	9.90e-155	534
+
+Results for BTT167_ALBA-3R_7984908_018 (trimmed).fa (vulpes):
 BTT167_ALBA-3R_7984908_018_(trimmed)	NC_082992.1	98.686	609	4	4	8	616	14541	15145	0.0	1083
 
-Results for BTT167_ALBA-3R_7984908_018 (trimmed).fa (Albula goreensis):
+Results for BTT167_ALBA-3R_7984908_018 (trimmed).fa (goreensis):
 
+Results for BTT167_ALBA-3R_7984908_018 (trimmed).fa (nemoptera):
 
-Results for BTT173_ALBA-3R_7984908_047 (trimmed).fa (Albula vulpes):
+Results for BTT167_ALBA-3R_7984908_018 (trimmed).fa (glossodonta):
+BTT167_ALBA-3R_7984908_018_(trimmed)	AP002973.1	82.673	606	101	4	10	615	14525	15126	2.14e-156	540
+
+Results for BTT173_ALBA-3R_7984908_047 (trimmed).fa (vulpes):
 BTT173_ALBA-3R_7984908_047_(trimmed)	NC_082992.1	98.344	604	5	5	8	610	14541	15140	0.0	1062
 
-Results for BTT173_ALBA-3R_7984908_047 (trimmed).fa (Albula goreensis):
+Results for BTT173_ALBA-3R_7984908_047 (trimmed).fa (goreensis):
 
+Results for BTT173_ALBA-3R_7984908_047 (trimmed).fa (nemoptera):
 
-Results for BTT181_ALBA-3R_7984908_045 (trimmed).fa (Albula vulpes):
+Results for BTT173_ALBA-3R_7984908_047 (trimmed).fa (glossodonta):
+BTT173_ALBA-3R_7984908_047_(trimmed)	AP002973.1	82.683	589	98	4	14	602	14530	15114	5.93e-152	525
+
+Results for BTT181_ALBA-3R_7984908_045 (trimmed).fa (vulpes):
 BTT181_ALBA-3R_7984908_045_(trimmed)	NC_082992.1	98.200	611	4	6	8	618	14541	15144	0.0	1064
 
-Results for BTT181_ALBA-3R_7984908_045 (trimmed).fa (Albula goreensis):
+Results for BTT181_ALBA-3R_7984908_045 (trimmed).fa (goreensis):
 
+Results for BTT181_ALBA-3R_7984908_045 (trimmed).fa (nemoptera):
 
-Results for BTT182_ALBA-3R_7984908_043 (trimmed).fa (Albula vulpes):
+Results for BTT181_ALBA-3R_7984908_045 (trimmed).fa (glossodonta):
+BTT181_ALBA-3R_7984908_045_(trimmed)	AP002973.1	82.102	609	102	6	10	618	14525	15126	1.01e-149	518
+
+Results for BTT182_ALBA-3R_7984908_043 (trimmed).fa (vulpes):
 BTT182_ALBA-3R_7984908_043_(trimmed)	NC_082992.1	98.693	612	3	5	7	617	14541	15148	0.0	1085
 
-Results for BTT182_ALBA-3R_7984908_043 (trimmed).fa (Albula goreensis):
+Results for BTT182_ALBA-3R_7984908_043 (trimmed).fa (goreensis):
 
+Results for BTT182_ALBA-3R_7984908_043 (trimmed).fa (nemoptera):
 
-Results for BTT193_ALBA-3R_7984908_041 (trimmed).fa (Albula vulpes):
+Results for BTT182_ALBA-3R_7984908_043 (trimmed).fa (glossodonta):
+BTT182_ALBA-3R_7984908_043_(trimmed)	AP002973.1	82.838	606	99	5	9	613	14525	15126	2.15e-156	540
+
+Results for BTT193_ALBA-3R_7984908_041 (trimmed).fa (vulpes):
 BTT193_ALBA-3R_7984908_041_(trimmed)	NC_082992.1	96.450	338	8	4	1	338	14567	14900	2.50e-163	562
 
-Results for BTT193_ALBA-3R_7984908_041 (trimmed).fa (Albula goreensis):
+Results for BTT193_ALBA-3R_7984908_041 (trimmed).fa (goreensis):
 
+Results for BTT193_ALBA-3R_7984908_041 (trimmed).fa (nemoptera):
 
-Results for BTT197_ALBA-3R_7984908_039 (trimmed).fa (Albula vulpes):
+Results for BTT193_ALBA-3R_7984908_041 (trimmed).fa (glossodonta):
+BTT193_ALBA-3R_7984908_041_(trimmed)	AP002973.1	83.129	326	52	3	11	336	14558	14880	5.98e-85	302
+
+Results for BTT197_ALBA-3R_7984908_039 (trimmed).fa (vulpes):
 BTT197_ALBA-3R_7984908_039_(trimmed)	NC_082992.1	98.525	610	3	6	8	616	14541	15145	0.0	1075
 
-Results for BTT197_ALBA-3R_7984908_039 (trimmed).fa (Albula goreensis):
+Results for BTT197_ALBA-3R_7984908_039 (trimmed).fa (goreensis):
 
+Results for BTT197_ALBA-3R_7984908_039 (trimmed).fa (nemoptera):
 
-Results for BTT201_ALBA-3R_7984908_037 (trimmed).fa (Albula vulpes):
+Results for BTT197_ALBA-3R_7984908_039 (trimmed).fa (glossodonta):
+BTT197_ALBA-3R_7984908_039_(trimmed)	AP002973.1	82.537	607	100	6	10	615	14525	15126	3.62e-154	532
+
+Results for BTT201_ALBA-3R_7984908_037 (trimmed).fa (vulpes):
 BTT201_ALBA-3R_7984908_037_(trimmed)	NC_082992.1	98.347	605	5	4	5	609	14541	15140	0.0	1064
 
-Results for BTT201_ALBA-3R_7984908_037 (trimmed).fa (Albula goreensis):
+Results for BTT201_ALBA-3R_7984908_037 (trimmed).fa (goreensis):
 
+Results for BTT201_ALBA-3R_7984908_037 (trimmed).fa (nemoptera):
 
-Results for BTT202_ALBA-3R_7984908_035 (trimmed).fa (Albula vulpes):
+Results for BTT201_ALBA-3R_7984908_037 (trimmed).fa (glossodonta):
+BTT201_ALBA-3R_7984908_037_(trimmed)	AP002973.1	82.521	595	99	4	7	601	14525	15114	5.92e-152	525
+
+Results for BTT202_ALBA-3R_7984908_035 (trimmed).fa (vulpes):
 BTT202_ALBA-3R_7984908_035_(trimmed)	NC_082992.1	98.358	609	5	5	8	615	14541	15145	0.0	1070
 
-Results for BTT202_ALBA-3R_7984908_035 (trimmed).fa (Albula goreensis):
+Results for BTT202_ALBA-3R_7984908_035 (trimmed).fa (goreensis):
 
+Results for BTT202_ALBA-3R_7984908_035 (trimmed).fa (nemoptera):
 
-Results for BTT203_ALBA-3R_7984908_033 (trimmed).fa (Albula vulpes):
+Results for BTT202_ALBA-3R_7984908_035 (trimmed).fa (glossodonta):
+BTT202_ALBA-3R_7984908_035_(trimmed)	AP002973.1	82.529	601	101	4	14	614	14530	15126	4.62e-153	529
+
+Results for BTT203_ALBA-3R_7984908_033 (trimmed).fa (vulpes):
 BTT203_ALBA-3R_7984908_033_(trimmed)	NC_082992.1	98.525	610	3	6	5	613	14541	15145	0.0	1075
 
-Results for BTT203_ALBA-3R_7984908_033 (trimmed).fa (Albula goreensis):
+Results for BTT203_ALBA-3R_7984908_033 (trimmed).fa (goreensis):
 
+Results for BTT203_ALBA-3R_7984908_033 (trimmed).fa (nemoptera):
 
-Results for BTT204_ALBA-3R_7984908_048 (trimmed).fa (Albula vulpes):
+Results for BTT203_ALBA-3R_7984908_033 (trimmed).fa (glossodonta):
+BTT203_ALBA-3R_7984908_033_(trimmed)	AP002973.1	82.724	602	99	5	11	612	14530	15126	3.59e-154	532
+
+Results for BTT204_ALBA-3R_7984908_048 (trimmed).fa (vulpes):
 BTT204_ALBA-3R_7984908_048_(trimmed)	NC_082992.1	98.507	603	5	4	1	602	14541	15140	0.0	1068
 
-Results for BTT204_ALBA-3R_7984908_048 (trimmed).fa (Albula goreensis):
+Results for BTT204_ALBA-3R_7984908_048 (trimmed).fa (goreensis):
 
+Results for BTT204_ALBA-3R_7984908_048 (trimmed).fa (nemoptera):
 
-Results for BTT205_ALBA-3R_7984908_046 (trimmed).fa (Albula vulpes):
+Results for BTT204_ALBA-3R_7984908_048 (trimmed).fa (glossodonta):
+BTT204_ALBA-3R_7984908_048_(trimmed)	AP002973.1	82.910	591	98	3	7	597	14530	15117	9.72e-155	534
+
+Results for BTT205_ALBA-3R_7984908_046 (trimmed).fa (vulpes):
 BTT205_ALBA-3R_7984908_046_(trimmed)	NC_082992.1	98.522	609	4	5	8	615	14541	15145	0.0	1075
 
-Results for BTT205_ALBA-3R_7984908_046 (trimmed).fa (Albula goreensis):
+Results for BTT205_ALBA-3R_7984908_046 (trimmed).fa (goreensis):
 
+Results for BTT205_ALBA-3R_7984908_046 (trimmed).fa (nemoptera):
 
-Results for BTT207_ALBA-3R_7984908_044 (trimmed).fa (Albula vulpes):
+Results for BTT205_ALBA-3R_7984908_046 (trimmed).fa (glossodonta):
+BTT205_ALBA-3R_7984908_046_(trimmed)	AP002973.1	82.696	601	100	4	14	614	14530	15126	9.94e-155	534
+
+Results for BTT207_ALBA-3R_7984908_044 (trimmed).fa (vulpes):
 BTT207_ALBA-3R_7984908_044_(trimmed)	NC_082992.1	98.673	603	4	4	8	609	14541	15140	0.0	1072
 
-Results for BTT207_ALBA-3R_7984908_044 (trimmed).fa (Albula goreensis):
+Results for BTT207_ALBA-3R_7984908_044 (trimmed).fa (goreensis):
 
+Results for BTT207_ALBA-3R_7984908_044 (trimmed).fa (nemoptera):
 
-Results for BTT208_ALBA-3R_7984908_042 (trimmed).fa (Albula vulpes):
+Results for BTT207_ALBA-3R_7984908_044 (trimmed).fa (glossodonta):
+BTT207_ALBA-3R_7984908_044_(trimmed)	AP002973.1	82.993	588	97	3	14	601	14530	15114	3.55e-154	532
+
+Results for BTT208_ALBA-3R_7984908_042 (trimmed).fa (vulpes):
 BTT208_ALBA-3R_7984908_042_(trimmed)	NC_082992.1	98.512	605	4	4	1	605	14549	15148	0.0	1070
 
-Results for BTT208_ALBA-3R_7984908_042 (trimmed).fa (Albula goreensis):
+Results for BTT208_ALBA-3R_7984908_042 (trimmed).fa (goreensis):
 
+Results for BTT208_ALBA-3R_7984908_042 (trimmed).fa (nemoptera):
 
-Results for BTT210_ALBA-3R_7984908_040 (trimmed).fa (Albula vulpes):
+Results for BTT208_ALBA-3R_7984908_042 (trimmed).fa (glossodonta):
+BTT208_ALBA-3R_7984908_042_(trimmed)	AP002973.1	82.363	601	101	4	1	601	14531	15126	2.12e-151	523
+
+Results for BTT210_ALBA-3R_7984908_040 (trimmed).fa (vulpes):
 BTT210_ALBA-3R_7984908_040_(trimmed)	NC_082992.1	98.852	610	1	6	7	615	14541	15145	0.0	1085
 
-Results for BTT210_ALBA-3R_7984908_040 (trimmed).fa (Albula goreensis):
+Results for BTT210_ALBA-3R_7984908_040 (trimmed).fa (goreensis):
 
+Results for BTT210_ALBA-3R_7984908_040 (trimmed).fa (nemoptera):
 
-Results for BTT211_ALBA-3R_7984908_038 (trimmed).fa (Albula vulpes):
+Results for BTT210_ALBA-3R_7984908_040 (trimmed).fa (glossodonta):
+BTT210_ALBA-3R_7984908_040_(trimmed)	AP002973.1	82.702	607	99	6	9	614	14525	15126	2.79e-155	536
+
+Results for BTT211_ALBA-3R_7984908_038 (trimmed).fa (vulpes):
 BTT211_ALBA-3R_7984908_038_(trimmed)	NC_082992.1	98.347	605	4	4	8	611	14541	15140	0.0	1062
 
-Results for BTT211_ALBA-3R_7984908_038 (trimmed).fa (Albula goreensis):
+Results for BTT211_ALBA-3R_7984908_038 (trimmed).fa (goreensis):
 
+Results for BTT211_ALBA-3R_7984908_038 (trimmed).fa (nemoptera):
 
-Results for BTT212_ALBA-3R_7984908_036 (trimmed).fa (Albula vulpes):
+Results for BTT211_ALBA-3R_7984908_038 (trimmed).fa (glossodonta):
+BTT211_ALBA-3R_7984908_038_(trimmed)	AP002973.1	82.521	595	98	4	10	603	14525	15114	2.14e-151	523
+
+Results for BTT212_ALBA-3R_7984908_036 (trimmed).fa (vulpes):
 BTT212_ALBA-3R_7984908_036_(trimmed)	NC_082992.1	97.879	613	4	8	8	619	14541	15145	0.0	1057
 
-Results for BTT212_ALBA-3R_7984908_036 (trimmed).fa (Albula goreensis):
+Results for BTT212_ALBA-3R_7984908_036 (trimmed).fa (goreensis):
 
+Results for BTT212_ALBA-3R_7984908_036 (trimmed).fa (nemoptera):
 
-Results for BTT213_ALBA-3R_7984908_063 (trimmed).fa (Albula vulpes):
+Results for BTT212_ALBA-3R_7984908_036 (trimmed).fa (glossodonta):
+BTT212_ALBA-3R_7984908_036_(trimmed)	AP002973.1	82.149	605	100	7	14	618	14530	15126	3.62e-149	516
+
+Results for BTT213_ALBA-3R_7984908_063 (trimmed).fa (vulpes):
 BTT213_ALBA-3R_7984908_063_(trimmed)	NC_082992.1	98.673	603	4	4	8	609	14541	15140	0.0	1072
 
-Results for BTT213_ALBA-3R_7984908_063 (trimmed).fa (Albula goreensis):
+Results for BTT213_ALBA-3R_7984908_063 (trimmed).fa (goreensis):
 
+Results for BTT213_ALBA-3R_7984908_063 (trimmed).fa (nemoptera):
 
-Results for BTT214_ALBA-3R_7984908_061 (trimmed).fa (Albula vulpes):
+Results for BTT213_ALBA-3R_7984908_063 (trimmed).fa (glossodonta):
+BTT213_ALBA-3R_7984908_063_(trimmed)	AP002973.1	82.993	588	97	3	14	601	14530	15114	3.55e-154	532
+
+Results for BTT214_ALBA-3R_7984908_061 (trimmed).fa (vulpes):
 BTT214_ALBA-3R_7984908_061_(trimmed)	NC_082992.1	98.829	598	2	5	13	610	14548	15140	0.0	1064
 
-Results for BTT214_ALBA-3R_7984908_061 (trimmed).fa (Albula goreensis):
+Results for BTT214_ALBA-3R_7984908_061 (trimmed).fa (goreensis):
 
+Results for BTT214_ALBA-3R_7984908_061 (trimmed).fa (nemoptera):
 
-Results for BTT215_ALBA-3R_7984908_059 (trimmed).fa (Albula vulpes):
+Results for BTT214_ALBA-3R_7984908_061 (trimmed).fa (glossodonta):
+BTT214_ALBA-3R_7984908_061_(trimmed)	AP002973.1	82.712	590	97	5	13	602	14530	15114	2.13e-151	523
+
+Results for BTT215_ALBA-3R_7984908_059 (trimmed).fa (vulpes):
 BTT215_ALBA-3R_7984908_059_(trimmed)	NC_082992.1	98.671	602	4	4	1	602	14548	15145	0.0	1070
 
-Results for BTT215_ALBA-3R_7984908_059 (trimmed).fa (Albula goreensis):
+Results for BTT215_ALBA-3R_7984908_059 (trimmed).fa (goreensis):
 
+Results for BTT215_ALBA-3R_7984908_059 (trimmed).fa (nemoptera):
 
-Results for BTT216_ALBA-3R_7984908_057 (trimmed).fa (Albula vulpes):
+Results for BTT215_ALBA-3R_7984908_059 (trimmed).fa (glossodonta):
+BTT215_ALBA-3R_7984908_059_(trimmed)	AP002973.1	82.529	601	101	4	1	601	14530	15126	1.27e-153	531
+
+Results for BTT216_ALBA-3R_7984908_057 (trimmed).fa (vulpes):
 BTT216_ALBA-3R_7984908_057_(trimmed)	NC_082992.1	98.361	610	4	6	5	613	14541	15145	0.0	1074
 
-Results for BTT216_ALBA-3R_7984908_057 (trimmed).fa (Albula goreensis):
+Results for BTT216_ALBA-3R_7984908_057 (trimmed).fa (goreensis):
 
+Results for BTT216_ALBA-3R_7984908_057 (trimmed).fa (nemoptera):
 
-Results for BTT217_ALBA-3R_7984908_055 (trimmed).fa (Albula vulpes):
+Results for BTT216_ALBA-3R_7984908_057 (trimmed).fa (glossodonta):
+BTT216_ALBA-3R_7984908_057_(trimmed)	AP002973.1	82.392	602	101	5	11	612	14530	15126	5.96e-152	525
+
+Results for BTT217_ALBA-3R_7984908_055 (trimmed).fa (vulpes):
 BTT217_ALBA-3R_7984908_055_(trimmed)	NC_082992.1	98.522	609	4	5	8	615	14541	15145	0.0	1075
 
-Results for BTT217_ALBA-3R_7984908_055 (trimmed).fa (Albula goreensis):
+Results for BTT217_ALBA-3R_7984908_055 (trimmed).fa (goreensis):
 
+Results for BTT217_ALBA-3R_7984908_055 (trimmed).fa (nemoptera):
 
-Results for BTT229_ALBA-3R_7984908_053 (trimmed).fa (Albula vulpes):
+Results for BTT217_ALBA-3R_7984908_055 (trimmed).fa (glossodonta):
+BTT217_ALBA-3R_7984908_055_(trimmed)	AP002973.1	82.696	601	100	4	14	614	14530	15126	1.00e-154	534
+
+Results for BTT229_ALBA-3R_7984908_053 (trimmed).fa (vulpes):
 BTT229_ALBA-3R_7984908_053_(trimmed)	NC_082992.1	98.344	604	4	6	1	604	14548	15145	0.0	1061
 
-Results for BTT229_ALBA-3R_7984908_053 (trimmed).fa (Albula goreensis):
+Results for BTT229_ALBA-3R_7984908_053 (trimmed).fa (goreensis):
 
+Results for BTT229_ALBA-3R_7984908_053 (trimmed).fa (nemoptera):
 
-Results for BTT230_ALBA-3R_7984908_051 (trimmed).fa (Albula vulpes):
+Results for BTT229_ALBA-3R_7984908_053 (trimmed).fa (glossodonta):
+BTT229_ALBA-3R_7984908_053_(trimmed)	AP002973.1	82.255	603	101	6	1	603	14530	15126	7.59e-151	521
+
+Results for BTT230_ALBA-3R_7984908_051 (trimmed).fa (vulpes):
 BTT230_ALBA-3R_7984908_051_(trimmed)	NC_082992.1	98.851	609	2	4	8	615	14541	15145	0.0	1083
 
-Results for BTT230_ALBA-3R_7984908_051 (trimmed).fa (Albula goreensis):
+Results for BTT230_ALBA-3R_7984908_051 (trimmed).fa (goreensis):
 
+Results for BTT230_ALBA-3R_7984908_051 (trimmed).fa (nemoptera):
 
-Results for BTT231_ALBA-3R_7984908_049 (trimmed).fa (Albula vulpes):
+Results for BTT230_ALBA-3R_7984908_051 (trimmed).fa (glossodonta):
+BTT230_ALBA-3R_7984908_051_(trimmed)	AP002973.1	82.673	606	100	4	10	614	14525	15126	9.97e-155	534
+
+Results for BTT231_ALBA-3R_7984908_049 (trimmed).fa (vulpes):
 BTT231_ALBA-3R_7984908_049_(trimmed)	NC_082992.1	98.164	599	6	4	1	599	14547	15140	0.0	1048
 
-Results for BTT231_ALBA-3R_7984908_049 (trimmed).fa (Albula goreensis):
+Results for BTT231_ALBA-3R_7984908_049 (trimmed).fa (goreensis):
 
+Results for BTT231_ALBA-3R_7984908_049 (trimmed).fa (nemoptera):
 
-Results for BTT232_ALBA-3R_7984908_064 (trimmed).fa (Albula vulpes):
+Results for BTT231_ALBA-3R_7984908_049 (trimmed).fa (glossodonta):
+BTT231_ALBA-3R_7984908_049_(trimmed)	AP002973.1	82.572	591	98	4	1	591	14529	15114	2.09e-151	523
+
+Results for BTT232_ALBA-3R_7984908_064 (trimmed).fa (vulpes):
 BTT232_ALBA-3R_7984908_064_(trimmed)	NC_082992.1	98.686	609	4	4	8	616	14541	15145	0.0	1083
 
-Results for BTT232_ALBA-3R_7984908_064 (trimmed).fa (Albula goreensis):
+Results for BTT232_ALBA-3R_7984908_064 (trimmed).fa (goreensis):
 
+Results for BTT232_ALBA-3R_7984908_064 (trimmed).fa (nemoptera):
 
-Results for BTT233_ALBA-3R_7984908_062 (trimmed).fa (Albula vulpes):
+Results for BTT232_ALBA-3R_7984908_064 (trimmed).fa (glossodonta):
+BTT232_ALBA-3R_7984908_064_(trimmed)	AP002973.1	82.673	606	101	4	10	615	14525	15126	2.16e-156	540
+
+Results for BTT233_ALBA-3R_7984908_062 (trimmed).fa (vulpes):
 BTT233_ALBA-3R_7984908_062_(trimmed)	NC_082992.1	98.505	602	5	4	5	606	14548	15145	0.0	1064
 
-Results for BTT233_ALBA-3R_7984908_062 (trimmed).fa (Albula goreensis):
-BTT233_ALBA-3R_7984908_062_(trimmed)	ON993809.1	89.189	592	59	5	10	600	137	724	0.0	737
+Results for BTT233_ALBA-3R_7984908_062 (trimmed).fa (goreensis):
+BTT233_ALBA-3R_7984908_062_(trimmed)	OP546168.1	89.706	544	51	5	10	552	80	619	0.0	693
 
+Results for BTT233_ALBA-3R_7984908_062 (trimmed).fa (nemoptera):
 
-Results for BTT234_ALBA-3R_7984908_060 (trimmed).fa (Albula vulpes):
+Results for BTT233_ALBA-3R_7984908_062 (trimmed).fa (glossodonta):
+BTT233_ALBA-3R_7984908_062_(trimmed)	AP002973.1	82.529	601	101	4	5	605	14530	15126	1.28e-153	531
+
+Results for BTT234_ALBA-3R_7984908_060 (trimmed).fa (vulpes):
 BTT234_ALBA-3R_7984908_060_(trimmed)	NC_082992.1	98.673	603	4	4	8	609	14541	15140	0.0	1072
 
-Results for BTT234_ALBA-3R_7984908_060 (trimmed).fa (Albula goreensis):
+Results for BTT234_ALBA-3R_7984908_060 (trimmed).fa (goreensis):
 
+Results for BTT234_ALBA-3R_7984908_060 (trimmed).fa (nemoptera):
 
-Results for BTT235_ALBA-3R_7984908_058 (trimmed).fa (Albula vulpes):
+Results for BTT234_ALBA-3R_7984908_060 (trimmed).fa (glossodonta):
+BTT234_ALBA-3R_7984908_060_(trimmed)	AP002973.1	82.993	588	97	3	14	601	14530	15114	3.54e-154	532
+
+Results for BTT235_ALBA-3R_7984908_058 (trimmed).fa (vulpes):
 BTT235_ALBA-3R_7984908_058_(trimmed)	NC_082992.1	98.684	608	4	4	5	611	14541	15145	0.0	1081
 
-Results for BTT235_ALBA-3R_7984908_058 (trimmed).fa (Albula goreensis):
+Results for BTT235_ALBA-3R_7984908_058 (trimmed).fa (goreensis):
 
+Results for BTT235_ALBA-3R_7984908_058 (trimmed).fa (nemoptera):
 
-Results for BTT236_ALBA-3R_7984908_056 (trimmed).fa (Albula vulpes):
+Results for BTT235_ALBA-3R_7984908_058 (trimmed).fa (glossodonta):
+BTT235_ALBA-3R_7984908_058_(trimmed)	AP002973.1	82.833	600	100	3	11	610	14530	15126	7.70e-156	538
+
+Results for BTT236_ALBA-3R_7984908_056 (trimmed).fa (vulpes):
 BTT236_ALBA-3R_7984908_056_(trimmed)	NC_082992.1	98.525	610	3	5	5	613	14541	15145	0.0	1077
 
-Results for BTT236_ALBA-3R_7984908_056 (trimmed).fa (Albula goreensis):
+Results for BTT236_ALBA-3R_7984908_056 (trimmed).fa (goreensis):
 
+Results for BTT236_ALBA-3R_7984908_056 (trimmed).fa (nemoptera):
 
-Results for BTT237_ALBA-3R_7984908_054 (trimmed).fa (Albula vulpes):
+Results for BTT236_ALBA-3R_7984908_056 (trimmed).fa (glossodonta):
+BTT236_ALBA-3R_7984908_056_(trimmed)	AP002973.1	82.558	602	100	4	11	612	14530	15126	4.61e-153	529
+
+Results for BTT237_ALBA-3R_7984908_054 (trimmed).fa (vulpes):
 BTT237_ALBA-3R_7984908_054_(trimmed)	NC_082992.1	98.208	614	5	5	7	620	14541	15148	0.0	1074
 
-Results for BTT237_ALBA-3R_7984908_054 (trimmed).fa (Albula goreensis):
+Results for BTT237_ALBA-3R_7984908_054 (trimmed).fa (goreensis):
 
+Results for BTT237_ALBA-3R_7984908_054 (trimmed).fa (nemoptera):
 
-Results for BTT238_ALBA-3R_7984908_052 (trimmed).fa (Albula vulpes):
+Results for BTT237_ALBA-3R_7984908_054 (trimmed).fa (glossodonta):
+BTT237_ALBA-3R_7984908_054_(trimmed)	AP002973.1	82.401	608	101	5	9	616	14525	15126	4.68e-153	529
+
+Results for BTT238_ALBA-3R_7984908_052 (trimmed).fa (vulpes):
 BTT238_ALBA-3R_7984908_052_(trimmed)	NC_082992.1	98.671	602	5	3	8	608	14541	15140	0.0	1072
 
-Results for BTT238_ALBA-3R_7984908_052 (trimmed).fa (Albula goreensis):
+Results for BTT238_ALBA-3R_7984908_052 (trimmed).fa (goreensis):
 
+Results for BTT238_ALBA-3R_7984908_052 (trimmed).fa (nemoptera):
 
-Results for BTT239_ALBA-3R_7984908_050 (trimmed).fa (Albula vulpes):
+Results for BTT238_ALBA-3R_7984908_052 (trimmed).fa (glossodonta):
+BTT238_ALBA-3R_7984908_052_(trimmed)	AP002973.1	82.964	587	98	2	14	600	14530	15114	9.82e-155	534
+
+Results for BTT239_ALBA-3R_7984908_050 (trimmed).fa (vulpes):
 BTT239_ALBA-3R_7984908_050_(trimmed)	NC_082992.1	98.660	597	4	4	1	597	14548	15140	0.0	1062
 
-Results for BTT239_ALBA-3R_7984908_050 (trimmed).fa (Albula goreensis):
+Results for BTT239_ALBA-3R_7984908_050 (trimmed).fa (goreensis):
 
+Results for BTT239_ALBA-3R_7984908_050 (trimmed).fa (nemoptera):
 
-Results for BTT240_ALBA-3R_7984908_079 (trimmed).fa (Albula vulpes):
+Results for BTT239_ALBA-3R_7984908_050 (trimmed).fa (glossodonta):
+BTT239_ALBA-3R_7984908_050_(trimmed)	AP002973.1	82.770	592	98	4	1	592	14530	15117	3.47e-154	532
+
+Results for BTT240_ALBA-3R_7984908_079 (trimmed).fa (vulpes):
 BTT240_ALBA-3R_7984908_079_(trimmed)	NC_082992.1	98.525	610	3	6	7	615	14541	15145	0.0	1075
 
-Results for BTT240_ALBA-3R_7984908_079 (trimmed).fa (Albula goreensis):
+Results for BTT240_ALBA-3R_7984908_079 (trimmed).fa (goreensis):
 
+Results for BTT240_ALBA-3R_7984908_079 (trimmed).fa (nemoptera):
 
-Results for BTT241_ALBA-3R_7984908_077 (trimmed).fa (Albula vulpes):
+Results for BTT240_ALBA-3R_7984908_079 (trimmed).fa (glossodonta):
+BTT240_ALBA-3R_7984908_079_(trimmed)	AP002973.1	82.724	602	99	5	13	614	14530	15126	3.61e-154	532
+
+Results for BTT241_ALBA-3R_7984908_077 (trimmed).fa (vulpes):
 BTT241_ALBA-3R_7984908_077_(trimmed)	NC_082992.1	98.347	605	4	6	7	610	14541	15140	0.0	1062
 
-Results for BTT241_ALBA-3R_7984908_077 (trimmed).fa (Albula goreensis):
+Results for BTT241_ALBA-3R_7984908_077 (trimmed).fa (goreensis):
 
+Results for BTT241_ALBA-3R_7984908_077 (trimmed).fa (nemoptera):
 
-Results for BTT259_ALBA-3R_7984908_075 (trimmed).fa (Albula vulpes):
+Results for BTT241_ALBA-3R_7984908_077 (trimmed).fa (glossodonta):
+BTT241_ALBA-3R_7984908_077_(trimmed)	AP002973.1	82.712	590	97	5	13	602	14530	15114	2.13e-151	523
+
+Results for BTT259_ALBA-3R_7984908_075 (trimmed).fa (vulpes):
 BTT259_ALBA-3R_7984908_075_(trimmed)	NC_082992.1	98.203	612	6	5	8	618	14541	15148	0.0	1072
 
-Results for BTT259_ALBA-3R_7984908_075 (trimmed).fa (Albula goreensis):
+Results for BTT259_ALBA-3R_7984908_075 (trimmed).fa (goreensis):
 
+Results for BTT259_ALBA-3R_7984908_075 (trimmed).fa (nemoptera):
 
-Results for BTT260_ALBA-3R_7984908_073 (trimmed).fa (Albula vulpes):
+Results for BTT259_ALBA-3R_7984908_075 (trimmed).fa (glossodonta):
+BTT259_ALBA-3R_7984908_075_(trimmed)	AP002973.1	82.862	601	99	4	14	614	14530	15126	2.15e-156	540
+
+Results for BTT260_ALBA-3R_7984908_073 (trimmed).fa (vulpes):
 BTT260_ALBA-3R_7984908_073_(trimmed)	NC_082992.1	98.350	606	3	6	13	618	14547	15145	0.0	1061
 
-Results for BTT260_ALBA-3R_7984908_073 (trimmed).fa (Albula goreensis):
+Results for BTT260_ALBA-3R_7984908_073 (trimmed).fa (goreensis):
 
+Results for BTT260_ALBA-3R_7984908_073 (trimmed).fa (nemoptera):
 
-Results for BTT263_ALBA-3R_7984908_071 (trimmed).fa (Albula vulpes):
+Results for BTT260_ALBA-3R_7984908_073 (trimmed).fa (glossodonta):
+BTT260_ALBA-3R_7984908_073_(trimmed)	AP002973.1	82.314	605	100	6	13	617	14529	15126	7.81e-151	521
+
+Results for BTT263_ALBA-3R_7984908_071 (trimmed).fa (vulpes):
 BTT263_ALBA-3R_7984908_071_(trimmed)	NC_082992.1	98.206	613	5	6	8	619	14541	15148	0.0	1074
 
-Results for BTT263_ALBA-3R_7984908_071 (trimmed).fa (Albula goreensis):
+Results for BTT263_ALBA-3R_7984908_071 (trimmed).fa (goreensis):
 
+Results for BTT263_ALBA-3R_7984908_071 (trimmed).fa (nemoptera):
 
-Results for BTT272_ALBA-3R_7984908_069 (trimmed).fa (Albula vulpes):
+Results for BTT263_ALBA-3R_7984908_071 (trimmed).fa (glossodonta):
+BTT263_ALBA-3R_7984908_071_(trimmed)	AP002973.1	82.558	602	100	5	14	615	14530	15126	4.67e-153	529
+
+Results for BTT272_ALBA-3R_7984908_069 (trimmed).fa (vulpes):
 BTT272_ALBA-3R_7984908_069_(trimmed)	NC_082992.1	98.671	602	4	4	1	602	14548	15145	0.0	1070
 
-Results for BTT272_ALBA-3R_7984908_069 (trimmed).fa (Albula goreensis):
+Results for BTT272_ALBA-3R_7984908_069 (trimmed).fa (goreensis):
 
+Results for BTT272_ALBA-3R_7984908_069 (trimmed).fa (nemoptera):
 
-Results for BTT278_ALBA-3R_7984908_067 (trimmed).fa (Albula vulpes):
+Results for BTT272_ALBA-3R_7984908_069 (trimmed).fa (glossodonta):
+BTT272_ALBA-3R_7984908_069_(trimmed)	AP002973.1	82.529	601	101	4	1	601	14530	15126	1.27e-153	531
+
+Results for BTT278_ALBA-3R_7984908_067 (trimmed).fa (vulpes):
 BTT278_ALBA-3R_7984908_067_(trimmed)	NC_082992.1	98.197	610	5	6	1	609	14541	15145	0.0	1066
 
-Results for BTT278_ALBA-3R_7984908_067 (trimmed).fa (Albula goreensis):
-BTT278_ALBA-3R_7984908_067_(trimmed)	ON993809.1	88.815	599	61	6	6	603	131	724	0.0	736
+Results for BTT278_ALBA-3R_7984908_067 (trimmed).fa (goreensis):
+BTT278_ALBA-3R_7984908_067_(trimmed)	OP546168.1	89.292	551	53	6	6	555	74	619	0.0	691
 
+Results for BTT278_ALBA-3R_7984908_067 (trimmed).fa (nemoptera):
 
-Results for BTT279_ALBA-3R_7984908_065 (trimmed).fa (Albula vulpes):
+Results for BTT278_ALBA-3R_7984908_067 (trimmed).fa (glossodonta):
+BTT278_ALBA-3R_7984908_067_(trimmed)	AP002973.1	82.372	607	101	6	3	608	14525	15126	4.58e-153	529
+
+Results for BTT279_ALBA-3R_7984908_065 (trimmed).fa (vulpes):
 BTT279_ALBA-3R_7984908_065_(trimmed)	NC_082992.1	98.510	604	4	5	2	605	14547	15145	0.0	1066
 
-Results for BTT279_ALBA-3R_7984908_065 (trimmed).fa (Albula goreensis):
+Results for BTT279_ALBA-3R_7984908_065 (trimmed).fa (goreensis):
 
+Results for BTT279_ALBA-3R_7984908_065 (trimmed).fa (nemoptera):
 
-Results for BTT280_ALBA-3R_7984908_080 (trimmed).fa (Albula vulpes):
+Results for BTT279_ALBA-3R_7984908_065 (trimmed).fa (glossodonta):
+BTT279_ALBA-3R_7984908_065_(trimmed)	AP002973.1	82.587	603	100	5	2	604	14529	15126	3.51e-154	532
+
+Results for BTT280_ALBA-3R_7984908_080 (trimmed).fa (vulpes):
 BTT280_ALBA-3R_7984908_080_(trimmed)	NC_082992.1	98.525	610	3	6	1	609	14541	15145	0.0	1075
 
-Results for BTT280_ALBA-3R_7984908_080 (trimmed).fa (Albula goreensis):
+Results for BTT280_ALBA-3R_7984908_080 (trimmed).fa (goreensis):
 
+Results for BTT280_ALBA-3R_7984908_080 (trimmed).fa (nemoptera):
 
-Results for BTT281_ALBA-3R_7984908_076 (trimmed).fa (Albula vulpes):
+Results for BTT280_ALBA-3R_7984908_080 (trimmed).fa (glossodonta):
+BTT280_ALBA-3R_7984908_080_(trimmed)	AP002973.1	82.724	602	99	5	7	608	14530	15126	3.57e-154	532
+
+Results for BTT281_ALBA-3R_7984908_076 (trimmed).fa (vulpes):
 BTT281_ALBA-3R_7984908_076_(trimmed)	NC_082992.1	98.522	609	4	5	7	614	14541	15145	0.0	1075
 
-Results for BTT281_ALBA-3R_7984908_076 (trimmed).fa (Albula goreensis):
+Results for BTT281_ALBA-3R_7984908_076 (trimmed).fa (goreensis):
 
+Results for BTT281_ALBA-3R_7984908_076 (trimmed).fa (nemoptera):
 
-Results for BTT282_ALBA-3R_7984908_074 (trimmed).fa (Albula vulpes):
+Results for BTT281_ALBA-3R_7984908_076 (trimmed).fa (glossodonta):
+BTT281_ALBA-3R_7984908_076_(trimmed)	AP002973.1	82.696	601	100	4	13	613	14530	15126	1.00e-154	534
+
+Results for BTT282_ALBA-3R_7984908_074 (trimmed).fa (vulpes):
 BTT282_ALBA-3R_7984908_074_(trimmed)	NC_082992.1	98.671	602	4	4	1	602	14548	15145	0.0	1070
 
-Results for BTT282_ALBA-3R_7984908_074 (trimmed).fa (Albula goreensis):
+Results for BTT282_ALBA-3R_7984908_074 (trimmed).fa (goreensis):
 
+Results for BTT282_ALBA-3R_7984908_074 (trimmed).fa (nemoptera):
 
-Results for BTT283_ALBA-3R_7984908_072 (trimmed).fa (Albula vulpes):
+Results for BTT282_ALBA-3R_7984908_074 (trimmed).fa (glossodonta):
+BTT282_ALBA-3R_7984908_074_(trimmed)	AP002973.1	82.529	601	101	4	1	601	14530	15126	1.27e-153	531
+
+Results for BTT283_ALBA-3R_7984908_072 (trimmed).fa (vulpes):
 BTT283_ALBA-3R_7984908_072_(trimmed)	NC_082992.1	98.347	605	4	5	1	605	14547	15145	0.0	1062
 
-Results for BTT283_ALBA-3R_7984908_072 (trimmed).fa (Albula goreensis):
+Results for BTT283_ALBA-3R_7984908_072 (trimmed).fa (goreensis):
 
+Results for BTT283_ALBA-3R_7984908_072 (trimmed).fa (nemoptera):
 
-Results for BTT284_ALBA-3R_7984908_070 (trimmed).fa (Albula vulpes):
+Results for BTT283_ALBA-3R_7984908_072 (trimmed).fa (glossodonta):
+BTT283_ALBA-3R_7984908_072_(trimmed)	AP002973.1	82.285	604	101	5	1	604	14529	15126	2.14e-151	523
+
+Results for BTT284_ALBA-3R_7984908_070 (trimmed).fa (vulpes):
 BTT284_ALBA-3R_7984908_070_(trimmed)	NC_082992.1	98.527	611	2	7	7	616	14541	15145	0.0	1075
 
-Results for BTT284_ALBA-3R_7984908_070 (trimmed).fa (Albula goreensis):
+Results for BTT284_ALBA-3R_7984908_070 (trimmed).fa (goreensis):
 
+Results for BTT284_ALBA-3R_7984908_070 (trimmed).fa (nemoptera):
 
-Results for BTT285_ALBA-3R_7984908_068 (trimmed).fa (Albula vulpes):
+Results for BTT284_ALBA-3R_7984908_070 (trimmed).fa (glossodonta):
+BTT284_ALBA-3R_7984908_070_(trimmed)	AP002973.1	82.237	608	101	7	9	615	14525	15126	7.81e-151	521
+
+Results for BTT285_ALBA-3R_7984908_068 (trimmed).fa (vulpes):
 BTT285_ALBA-3R_7984908_068_(trimmed)	NC_082992.1	98.039	612	5	6	1	612	14541	15145	0.0	1062
 
-Results for BTT285_ALBA-3R_7984908_068 (trimmed).fa (Albula goreensis):
+Results for BTT285_ALBA-3R_7984908_068 (trimmed).fa (goreensis):
 
+Results for BTT285_ALBA-3R_7984908_068 (trimmed).fa (nemoptera):
 
-Results for BTT286_ALBA-3R_7984908_066 (trimmed).fa (Albula vulpes):
+Results for BTT285_ALBA-3R_7984908_068 (trimmed).fa (glossodonta):
+BTT285_ALBA-3R_7984908_068_(trimmed)	AP002973.1	81.938	609	103	6	3	611	14525	15126	1.30e-148	514
+
+Results for BTT286_ALBA-3R_7984908_066 (trimmed).fa (vulpes):
 BTT286_ALBA-3R_7984908_066_(trimmed)	NC_082992.1	98.507	603	4	4	1	603	14548	15145	0.0	1064
 
-Results for BTT286_ALBA-3R_7984908_066 (trimmed).fa (Albula goreensis):
+Results for BTT286_ALBA-3R_7984908_066 (trimmed).fa (goreensis):
 
+Results for BTT286_ALBA-3R_7984908_066 (trimmed).fa (nemoptera):
 
-Results for BTT287_ALBA-3R_7984908_095 (trimmed).fa (Albula vulpes):
+Results for BTT286_ALBA-3R_7984908_066 (trimmed).fa (glossodonta):
+BTT286_ALBA-3R_7984908_066_(trimmed)	AP002973.1	82.392	602	101	4	1	602	14530	15126	5.91e-152	525
+
+Results for BTT287_ALBA-3R_7984908_095 (trimmed).fa (vulpes):
 BTT287_ALBA-3R_7984908_095_(trimmed)	NC_082992.1	98.525	610	3	6	8	616	14541	15145	0.0	1077
 
-Results for BTT287_ALBA-3R_7984908_095 (trimmed).fa (Albula goreensis):
+Results for BTT287_ALBA-3R_7984908_095 (trimmed).fa (goreensis):
 
+Results for BTT287_ALBA-3R_7984908_095 (trimmed).fa (nemoptera):
 
-Results for BTT288_ALBA-3R_7984908_093 (trimmed).fa (Albula vulpes):
+Results for BTT287_ALBA-3R_7984908_095 (trimmed).fa (glossodonta):
+BTT287_ALBA-3R_7984908_095_(trimmed)	AP002973.1	82.372	607	101	6	10	615	14525	15126	4.67e-153	529
+
+Results for BTT288_ALBA-3R_7984908_093 (trimmed).fa (vulpes):
 BTT288_ALBA-3R_7984908_093_(trimmed)	NC_082992.1	98.520	608	3	6	1	607	14543	15145	0.0	1072
 
-Results for BTT288_ALBA-3R_7984908_093 (trimmed).fa (Albula goreensis):
+Results for BTT288_ALBA-3R_7984908_093 (trimmed).fa (goreensis):
 
+Results for BTT288_ALBA-3R_7984908_093 (trimmed).fa (nemoptera):
 
-Results for BTT290_ALBA-3R_7984908_091 (trimmed).fa (Albula vulpes):
+Results for BTT288_ALBA-3R_7984908_093 (trimmed).fa (glossodonta):
+BTT288_ALBA-3R_7984908_093_(trimmed)	AP002973.1	82.537	607	100	6	1	606	14525	15126	3.56e-154	532
+
+Results for BTT290_ALBA-3R_7984908_091 (trimmed).fa (vulpes):
 BTT290_ALBA-3R_7984908_091_(trimmed)	NC_082992.1	98.522	609	3	6	1	608	14541	15144	0.0	1075
 
-Results for BTT290_ALBA-3R_7984908_091 (trimmed).fa (Albula goreensis):
+Results for BTT290_ALBA-3R_7984908_091 (trimmed).fa (goreensis):
 
+Results for BTT290_ALBA-3R_7984908_091 (trimmed).fa (nemoptera):
 
-Results for BTT291_ALBA-3R_7984908_089 (trimmed).fa (Albula vulpes):
+Results for BTT290_ALBA-3R_7984908_091 (trimmed).fa (glossodonta):
+BTT290_ALBA-3R_7984908_091_(trimmed)	AP002973.1	82.372	607	101	6	3	608	14525	15126	4.57e-153	529
+
+Results for BTT291_ALBA-3R_7984908_089 (trimmed).fa (vulpes):
 BTT291_ALBA-3R_7984908_089_(trimmed)	NC_082992.1	98.675	604	3	5	2	605	14547	15145	0.0	1072
 
-Results for BTT291_ALBA-3R_7984908_089 (trimmed).fa (Albula goreensis):
+Results for BTT291_ALBA-3R_7984908_089 (trimmed).fa (goreensis):
 
+Results for BTT291_ALBA-3R_7984908_089 (trimmed).fa (nemoptera):
 
-Results for BTT292_ALBA-3R_7984908_087 (trimmed).fa (Albula vulpes):
+Results for BTT291_ALBA-3R_7984908_089 (trimmed).fa (glossodonta):
+BTT291_ALBA-3R_7984908_089_(trimmed)	AP002973.1	82.421	603	101	5	2	604	14529	15126	1.65e-152	527
+
+Results for BTT292_ALBA-3R_7984908_087 (trimmed).fa (vulpes):
 BTT292_ALBA-3R_7984908_087_(trimmed)	NC_082992.1	98.507	603	5	4	1	602	14541	15140	0.0	1068
 
-Results for BTT292_ALBA-3R_7984908_087 (trimmed).fa (Albula goreensis):
+Results for BTT292_ALBA-3R_7984908_087 (trimmed).fa (goreensis):
 
+Results for BTT292_ALBA-3R_7984908_087 (trimmed).fa (nemoptera):
 
-Results for BTT293_ALBA-3R_7984908_085 (trimmed).fa (Albula vulpes):
+Results for BTT292_ALBA-3R_7984908_087 (trimmed).fa (glossodonta):
+BTT292_ALBA-3R_7984908_087_(trimmed)	AP002973.1	82.823	588	98	3	7	594	14530	15114	4.52e-153	529
+
+Results for BTT293_ALBA-3R_7984908_085 (trimmed).fa (vulpes):
 BTT293_ALBA-3R_7984908_085_(trimmed)	NC_082992.1	98.678	605	5	3	1	604	14543	15145	0.0	1075
 
-Results for BTT293_ALBA-3R_7984908_085 (trimmed).fa (Albula goreensis):
+Results for BTT293_ALBA-3R_7984908_085 (trimmed).fa (goreensis):
 
+Results for BTT293_ALBA-3R_7984908_085 (trimmed).fa (nemoptera):
 
-Results for BTT294_ALBA-3R_7984908_083 (trimmed).fa (Albula vulpes):
+Results for BTT293_ALBA-3R_7984908_085 (trimmed).fa (glossodonta):
+BTT293_ALBA-3R_7984908_085_(trimmed)	AP002973.1	82.616	604	102	3	1	603	14525	15126	2.72e-155	536
+
+Results for BTT294_ALBA-3R_7984908_083 (trimmed).fa (vulpes):
 BTT294_ALBA-3R_7984908_083_(trimmed)	NC_082992.1	98.527	611	2	6	8	617	14541	15145	0.0	1075
 
-Results for BTT294_ALBA-3R_7984908_083 (trimmed).fa (Albula goreensis):
+Results for BTT294_ALBA-3R_7984908_083 (trimmed).fa (goreensis):
 
+Results for BTT294_ALBA-3R_7984908_083 (trimmed).fa (nemoptera):
 
-Results for BTT295_ALBA-3R_7984908_081 (trimmed).fa (Albula vulpes):
+Results for BTT294_ALBA-3R_7984908_083 (trimmed).fa (glossodonta):
+BTT294_ALBA-3R_7984908_083_(trimmed)	AP002973.1	82.401	608	100	6	10	616	14525	15126	1.69e-152	527
+
+Results for BTT295_ALBA-3R_7984908_081 (trimmed).fa (vulpes):
 BTT295_ALBA-3R_7984908_081_(trimmed)	NC_082992.1	98.382	618	4	6	2	616	14534	15148	0.0	1088
 
-Results for BTT295_ALBA-3R_7984908_081 (trimmed).fa (Albula goreensis):
+Results for BTT295_ALBA-3R_7984908_081 (trimmed).fa (goreensis):
 
+Results for BTT295_ALBA-3R_7984908_081 (trimmed).fa (nemoptera):
 
-Results for BTT296_ALBA-3R_7984908_096 (trimmed).fa (Albula vulpes):
+Results for BTT295_ALBA-3R_7984908_081 (trimmed).fa (glossodonta):
+BTT295_ALBA-3R_7984908_081_(trimmed)	AP002973.1	82.833	600	100	3	13	612	14530	15126	7.72e-156	538
+
+Results for BTT296_ALBA-3R_7984908_096 (trimmed).fa (vulpes):
 BTT296_ALBA-3R_7984908_096_(trimmed)	NC_082992.1	98.353	607	6	4	1	606	14541	15144	0.0	1070
 
-Results for BTT296_ALBA-3R_7984908_096 (trimmed).fa (Albula goreensis):
+Results for BTT296_ALBA-3R_7984908_096 (trimmed).fa (goreensis):
 
+Results for BTT296_ALBA-3R_7984908_096 (trimmed).fa (nemoptera):
 
-Results for BTT297_ALBA-3R_7984908_094 (trimmed).fa (Albula vulpes):
+Results for BTT296_ALBA-3R_7984908_096 (trimmed).fa (glossodonta):
+BTT296_ALBA-3R_7984908_096_(trimmed)	AP002973.1	83.000	600	99	3	7	606	14530	15126	4.52e-158	545
+
+Results for BTT297_ALBA-3R_7984908_094 (trimmed).fa (vulpes):
 BTT297_ALBA-3R_7984908_094_(trimmed)	NC_082992.1	98.342	603	4	6	1	603	14548	15144	0.0	1059
 
-Results for BTT297_ALBA-3R_7984908_094 (trimmed).fa (Albula goreensis):
+Results for BTT297_ALBA-3R_7984908_094 (trimmed).fa (goreensis):
 
+Results for BTT297_ALBA-3R_7984908_094 (trimmed).fa (nemoptera):
 
-Results for BTT298_ALBA-3R_7984908_092 (trimmed).fa (Albula vulpes):
+Results for BTT297_ALBA-3R_7984908_094 (trimmed).fa (glossodonta):
+BTT297_ALBA-3R_7984908_094_(trimmed)	AP002973.1	82.285	604	101	6	1	604	14530	15127	2.12e-151	523
+
+Results for BTT298_ALBA-3R_7984908_092 (trimmed).fa (vulpes):
 BTT298_ALBA-3R_7984908_092_(trimmed)	NC_082992.1	98.527	611	3	5	8	618	14541	15145	0.0	1077
 
-Results for BTT298_ALBA-3R_7984908_092 (trimmed).fa (Albula goreensis):
+Results for BTT298_ALBA-3R_7984908_092 (trimmed).fa (goreensis):
 
+Results for BTT298_ALBA-3R_7984908_092 (trimmed).fa (nemoptera):
 
-Results for BTT300_ALBA-3R_7984908_090 (trimmed).fa (Albula vulpes):
+Results for BTT298_ALBA-3R_7984908_092 (trimmed).fa (glossodonta):
+BTT298_ALBA-3R_7984908_092_(trimmed)	AP002973.1	82.401	608	101	5	10	617	14525	15126	4.69e-153	529
+
+Results for BTT300_ALBA-3R_7984908_090 (trimmed).fa (vulpes):
 BTT300_ALBA-3R_7984908_090_(trimmed)	NC_082992.1	98.355	608	4	6	1	607	14543	15145	0.0	1066
 
-Results for BTT300_ALBA-3R_7984908_090 (trimmed).fa (Albula goreensis):
+Results for BTT300_ALBA-3R_7984908_090 (trimmed).fa (goreensis):
 
+Results for BTT300_ALBA-3R_7984908_090 (trimmed).fa (nemoptera):
 
-Results for BTT302_ALBA-3R_7984908_088 (trimmed).fa (Albula vulpes):
+Results for BTT300_ALBA-3R_7984908_090 (trimmed).fa (glossodonta):
+BTT300_ALBA-3R_7984908_090_(trimmed)	AP002973.1	82.537	607	100	6	1	606	14525	15126	3.56e-154	532
+
+Results for BTT302_ALBA-3R_7984908_088 (trimmed).fa (vulpes):
 BTT302_ALBA-3R_7984908_088_(trimmed)	NC_082992.1	98.197	610	5	5	7	615	14541	15145	0.0	1064
 
-Results for BTT302_ALBA-3R_7984908_088 (trimmed).fa (Albula goreensis):
-BTT302_ALBA-3R_7984908_088_(trimmed)	ON993809.1	88.815	599	61	5	12	609	131	724	0.0	734
+Results for BTT302_ALBA-3R_7984908_088 (trimmed).fa (goreensis):
+BTT302_ALBA-3R_7984908_088_(trimmed)	OP546168.1	89.292	551	53	5	12	561	74	619	0.0	689
 
+Results for BTT302_ALBA-3R_7984908_088 (trimmed).fa (nemoptera):
 
-Results for BTT317_ALBA-3R_7984908_084 (trimmed).fa (Albula vulpes):
+Results for BTT302_ALBA-3R_7984908_088 (trimmed).fa (glossodonta):
+BTT302_ALBA-3R_7984908_088_(trimmed)	AP002973.1	82.537	607	100	5	9	614	14525	15126	3.60e-154	532
+
+Results for BTT317_ALBA-3R_7984908_084 (trimmed).fa (vulpes):
 BTT317_ALBA-3R_7984908_084_(trimmed)	NC_082992.1	98.042	613	3	8	5	616	14541	15145	0.0	1062
 
-Results for BTT317_ALBA-3R_7984908_084 (trimmed).fa (Albula goreensis):
+Results for BTT317_ALBA-3R_7984908_084 (trimmed).fa (goreensis):
 
+Results for BTT317_ALBA-3R_7984908_084 (trimmed).fa (nemoptera):
+
+Results for BTT317_ALBA-3R_7984908_084 (trimmed).fa (glossodonta):
+BTT317_ALBA-3R_7984908_084_(trimmed)	AP002973.1	82.149	605	100	7	11	615	14530	15126	3.64e-149	516
 
