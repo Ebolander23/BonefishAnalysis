@@ -20,7 +20,7 @@ bonefish-blast-dir/
 ├── blast_results/ # Output folder for summary files
 │ ├── blast_summary_results.txt (BLAST standard format output) 
 │ └── species_summary.txt (Excel styled output for easy use)
-├── bonefish_blast.py # Main Python script
+├── bonefish_species_identification.py # Main Python script
 └── README.md # This file
 ```
 ---
@@ -39,7 +39,8 @@ To build BLAST databases, you need FASTA-format reference sequences for the mito
 1. Visit [NCBI Nucleotide Search](https://www.ncbi.nlm.nih.gov/nucleotide/).
 2. Search for terms like:
    - `"Albula vulpes mitochondrion complete genome"`
-   - `"Albula goreensis mitochondrion complete genome"`
+   - `"Albula goreensis cyochrome b"`
+   - `And other species: Albula nemoptera and Albula glossodonta`
 3. Choose a sequence that matches your needs (complete genome or relevant mitochondrial gene region).
 4. Click **"Send to" → "File"**, choose format **FASTA**, then click **"Create File"** to download.
 
@@ -47,6 +48,8 @@ Rename the downloaded files to:
 
 - `albula_vulpes.fa`
 - `albula_goreensis.fa`
+- `albula_nemoptera.fa`
+- `albula_glossodonta.fa`
 
 Move them into the `blast_db/` directory.
 
@@ -74,25 +77,32 @@ makeblastdb -in blast_db/albula_goreensis.fa -dbtype nucl -out blast_db/albula_g
 1. **Prepare your environment**:
     - Install BLAST+ if not already installed.
     - Place all `.fa` files (one per sample) in the `fasta_files/` directory.
-    - Make sure you have two BLAST-formatted databases in the `blast_db/` folder:
+    - Make sure you have all BLAST-formatted databases in the `blast_db/` folder:
         - `albula_vulpes_reference`
         - `albula_goreensis_reference`
-     
-2. **Database Creation**:
+        - `albula_nemoptera_reference`
+        - `albula_glossodonta_reference`
    
 
-3. **Run the pipeline**:
+2. **Run the pipeline with command-line arguments**:
     ```bash
-    python3 bonefish_species_identifier.py
+    python bonefish_species_identifier.py \
+       --input_dir fasta_files \
+       --output_dir blast_results \
+       --databases \
+          vulpes:blast_db/albula_vulpes_reference \
+          goreensis:blast_db/albula_goreensis_reference \
+          nemoptera:blast_db/albula_nemoptera_reference \
+          glossodonta:blast_db/albula_glossodonta_reference \
     ```
 
-4. **Outputs**:
+3. **Outputs**:
     - `blast_summary_results.txt`: Full raw BLAST results for both species per sample.
-    - `species_summary.txt`: Tabulated species ID and percent identity per sample.
+    - `species_summary.txt`: Clean species ID and percent identity per sample.
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 | Sample ID                  | Species Identified | Percent Identity |
 |---------------------------|--------------------|------------------|
@@ -101,13 +111,20 @@ makeblastdb -in blast_db/albula_goreensis.fa -dbtype nucl -out blast_db/albula_g
 | ...                       | ...                | ...              |
 
 ---
+## Validation with Controls
+To verify correctness of the BLAST algorithm within this project, each species reference has a positive control FASTA in fasta_files/:
+   - a_CONTROL_vulpes.fa
+   - a_CONTROL_goreensis.fa
+   - a_CONTROL_nemoptera.fa
+   - a_CONTROL_glossodonta.fa
+     
+*These allow us to confirm that the pipeline is working and each of these should match with ~100% identity.*
+---
 
-## 🔄 Reproducibility & Versioning
+## Reproducibility
 
 - This codebase is version-controlled using Git.
 - Code and data dependencies are described in this README.
-- A GitHub release will be created for publication reference.
-
 ---
 
 ## 📜 Citation & Attribution
@@ -117,7 +134,7 @@ If this tool contributes to a publication, please cite:
 
 ---
 
-## 🧠 Contact
+## Contact
 
 For questions, collaborations, or reproducibility concerns, please contact:  
 **Eric Bolander** – *ebolander@ucsd.edu*
