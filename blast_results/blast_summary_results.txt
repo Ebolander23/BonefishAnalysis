@@ -965,3 +965,13 @@ Results for BTT317_ALBA-3R_7984908_084 (trimmed).fa (nemoptera):
 Results for BTT317_ALBA-3R_7984908_084 (trimmed).fa (glossodonta):
 BTT317_ALBA-3R_7984908_084_(trimmed)	AP002973.1	82.149	605	100	7	11	615	14530	15126	3.64e-149	516
 
+Results for FC29_Alba2F assembly consensus.fa (vulpes):
+
+Results for FC29_Alba2F assembly consensus.fa (goreensis):
+FC29_Alba2F_assembly_Albula_goreensis_voucher_TFJ-08_cytochrome_b_gene,_partial_cds;_mitochondrial._consensus	OP546168.1	100.000	502	0	0	1	502	73	574	0.0	928
+
+Results for FC29_Alba2F assembly consensus.fa (nemoptera):
+FC29_Alba2F_assembly_Albula_goreensis_voucher_TFJ-08_cytochrome_b_gene,_partial_cds;_mitochondrial._consensus	AF311754.1	88.048	502	60	0	1	502	22	523	1.20e-174	595
+
+Results for FC29_Alba2F assembly consensus.fa (glossodonta):
+

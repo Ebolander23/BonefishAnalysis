@@ -95,3 +95,4 @@ BTT298_ALBA-3R_7984908_092 (trimmed).fa	vulpes	98.527
 BTT300_ALBA-3R_7984908_090 (trimmed).fa	vulpes	98.355
 BTT302_ALBA-3R_7984908_088 (trimmed).fa	vulpes	98.197
 BTT317_ALBA-3R_7984908_084 (trimmed).fa	vulpes	98.042
+FC29_Alba2F assembly consensus.fa	goreensis	100.000

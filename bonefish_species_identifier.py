@@ -3,6 +3,7 @@ import os  # For interacting with the file system paths, directories)
 import subprocess  # For running external commands like BLAST from within Python
 import tempfile  # For creating temporary files for storing intermediate BLAST results
 import argparse  # For parsing command-line arguments provided by the user
+import time # tracking how long script takes
 
 # Define a function to run a BLASTn search
 def run_blast(query_file, db_file):
@@ -99,6 +100,11 @@ def main():
     summary_output_file = os.path.join(output_dir, "blast_summary_results.txt")
     species_summary_file = os.path.join(output_dir, "species_summary.txt")
 
+    # *** Start timer
+    start_time = time.time()
+    # *** Initialize sample counter
+    sample_count = 0
+
     # Open both output files for writing (will be overwritten if they exist)
     with open(summary_output_file, "w") as summary_file, open(species_summary_file, "w") as species_file:
         # Write headers to the summary file
@@ -149,6 +155,12 @@ def main():
                 # Notify user that the sample has been processed
                 print(f"Completed BLAST for {fasta_file}")
 
+                # increment the sample count
+                sample_count += 1
+
+    end_time = time.time()
+    total_time = end_time - start_time
+    print(f"\nProcessed {sample_count} sample(s) in {total_time:.2f} seconds.")
 # Ensure that main() is only called when the script is run directly
 if __name__ == "__main__":
     main()
