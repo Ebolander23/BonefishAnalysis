@@ -1,0 +1,20 @@
+# Ignore BLAST database binaries
+blast_db/*.nhr
+blast_db/*.nin
+blast_db/*.nsq
+blast_db/*.ndb
+blast_db/*.njs
+blast_db/*.not
+blast_db/*.ntf
+blast_db/*.nto
+
+# Ignore raw BLAST results
+blast_results/
+
+# Ignore temporary/control files
+*.tmp
+*.log
+
+# Ignore any future OS files
+.DS_Store
+Thumbs.db
