@@ -1,33 +1,51 @@
-import os  # For file system operations
-import subprocess  # To run BLAST as a system command
+# Import necessary standard Python libraries
+import os  # For interacting with the file system paths, directories)
+import subprocess  # For running external commands like BLAST from within Python
+import tempfile  # For creating temporary files for storing intermediate BLAST results
+import argparse  # For parsing command-line arguments provided by the user
 
+# Define a function to run a BLASTn search
 def run_blast(query_file, db_file):
     """
-    Function to run BLAST search and return results as a string.
+    Run BLAST search and return results as a string.
 
     Parameters:
     query_file (str): Path to the query FASTA file
     db_file (str): Path to the BLAST database
 
     Returns:
-    str: The BLAST results in tabular format as a string
+    str: BLAST results in tabular format
     """
-    temp_output = "temp_blast_output.txt"
+    # Create a temporary file to store BLAST output
+    # 'delete=False' prevents it from being auto-deleted so we can read it later
+    # 'mode="w+"' allows reading and writing to the temporary file
+    with tempfile.NamedTemporaryFile(delete=False, mode='w+') as tmp:
+        temp_output = tmp.name  # Store the path to the temp file
+
+    # Construct the BLASTn command with desired parameters
     blast_command = [
-        "blastn",
-        "-query", query_file,
-        "-db", db_file,
-        "-out", temp_output,
-        "-outfmt", "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore",
-        "-evalue", "0.001",
-        "-num_alignments", "1"
+        "blastn",  # Use BLASTN for nucleotide-nucleotide comparison
+        "-query", query_file,  # The query FASTA file
+        "-db", db_file,  # The BLAST-formatted database
+        "-out", temp_output,  # Output will be written to the temporary file
+        "-outfmt", "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore",  # Custom tabular output format
+        "-evalue", "0.001",  # E-value threshold for significance
+        "-num_alignments", "1"  # Only keep the top hit
     ]
+    # Run the BLAST command using subprocess; 'check=True' raises error on failure
     subprocess.run(blast_command, check=True)
+
+    # Open the temporary output file and read the entire content into a string
     with open(temp_output, "r") as f:
         blast_results = f.read()
+
+    # Delete the temporary file to clean up after ourselves
     os.remove(temp_output)
+
+    # Return the BLAST results as a string
     return blast_results
 
+# Define a function to extract useful information from the BLAST output
 def parse_blast_result(blast_result):
     """
     Parse BLAST result to extract percent identity and subject ID.
@@ -38,79 +56,99 @@ def parse_blast_result(blast_result):
     Returns:
     tuple: (percent identity, subject ID)
     """
+    # If the BLAST result string is empty or only whitespace, return None
     if not blast_result.strip():
-        return None, None  # No result found
-    lines = blast_result.strip().split("\n")
-    best_hit = lines[0].split("\t")  # Take the first (best) hit
-    percent_identity = float(best_hit[2])
-    subject_id = best_hit[1]
-    return percent_identity, subject_id
+        return None, None
 
+    # Get the top BLAST hit (first line of output), split into columns by tab
+    best_hit = blast_result.strip().split("\n")[0].split("\t")
+
+    # Return percent identity (as float) and subject ID (as string)
+    return float(best_hit[2]), best_hit[1]
+
+# Define the main function to orchestrate the pipeline
 def main():
-    fasta_directory = "/mnt/c/Users/ericb/OneDrive/Documents/fasta_files/"    
-    vulpes_db = "/mnt/c/Users/ericb/OneDrive/Documents/blast_db/albula_vulpes_reference"
-    goreensis_db = "/mnt/c/Users/ericb/OneDrive/Documents/blast_db/albula_goreensis_reference"
-    summary_output_file = "/mnt/c/Users/ericb/OneDrive/Documents/blast_results/blast_summary_results.txt"
-    species_summary_file = "/mnt/c/Users/ericb/OneDrive/Documents/blast_results/species_summary.txt"
+    # Create an ArgumentParser to handle command-line arguments
+    parser = argparse.ArgumentParser(description="Run BLAST for species identification.")
 
-    # Initialize the output files
+    # Define required input directory containing .fa files
+    parser.add_argument("--input_dir", required=True, help="Directory containing FASTA files")
+
+    # Define required BLAST databases, passed as a list of species_name:path_to_db entries
+    parser.add_argument("--databases", required=True, nargs='+', help="Species databases in format species_name:path_to_db")
+
+    # Optional output directory for storing BLAST results; default is 'blast_results'
+    parser.add_argument("--output_dir", default="blast_results", help="Directory for output files")
+
+    # Parse the arguments provided by the user
+    args = parser.parse_args()
+
+    # Store the input directory path
+    fasta_directory = args.input_dir
+
+    # Parse database inputs into a dictionary mapping species_name → path_to_db
+    species_dbs = dict(pair.split(":") for pair in args.databases)
+
+    # Store the output directory path
+    output_dir = args.output_dir
+
+    # Create the output directory if it doesn’t already exist
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Define paths for the two output files: detailed results and species-level summary
+    summary_output_file = os.path.join(output_dir, "blast_summary_results.txt")
+    species_summary_file = os.path.join(output_dir, "species_summary.txt")
+
+    # Open both output files for writing (will be overwritten if they exist)
     with open(summary_output_file, "w") as summary_file, open(species_summary_file, "w") as species_file:
-        summary_file.write("BLAST Summary Results\n")
-        summary_file.write("=====================\n\n")
+        # Write headers to the summary file
+        summary_file.write("BLAST Summary Results\n=====================\n\n")
         summary_file.write("Query ID\tSubject ID\t% Identity\tAlignment Length\tMismatches\tGap Openings\tQuery Start\tQuery End\tSubject Start\tSubject End\tE-value\tBit Score\n")
-        summary_file.write("---------\t----------\t-----------\t----------------\t-----------\t------------\t-----------\t---------\t-------------\t-----------\t-------\t---------\n\n")
 
+        # Write headers to the species identification summary file
         species_file.write("Sample ID\tSpecies Identified\tPercent Identity\n")
-        species_file.write("---------\t------------------\t----------------\n")
 
-        # Loop through all FASTA files in the directory
+        # Loop through each file in the input directory
         for fasta_file in os.listdir(fasta_directory):
+            # Process only files ending in '.fa' (FASTA format)
             if fasta_file.endswith(".fa"):
-                query_file = os.path.join(fasta_directory, fasta_file)        
+                # Construct the full path to the current query file
+                query_file = os.path.join(fasta_directory, fasta_file)
 
-                # Run BLAST against both databases
-                print(f"Running BLAST for {fasta_file} against Albula vulpes...")
-                vulpes_result = run_blast(query_file, vulpes_db)
-                vulpes_identity, _ = parse_blast_result(vulpes_result)        
+                # Dictionary to store BLAST results for all species for this sample
+                results = {}
+                for species, db_path in species_dbs.items():
+                    # Inform the user which species and sample are being processed
+                    print(f"Running BLAST for {fasta_file} against {species}...")
 
-                print(f"Running BLAST for {fasta_file} against Albula goreensis...")
-                goreensis_result = run_blast(query_file, goreensis_db)        
-                goreensis_identity, _ = parse_blast_result(goreensis_result)  
+                    # Run BLAST and parse the result for percent identity
+                    blast_result = run_blast(query_file, db_path)
+                    identity, _ = parse_blast_result(blast_result)
 
-                # Determine which species has the higher percent identity     
-                if vulpes_identity is None and goreensis_identity is None:
-                    # No matches in either database
+                    # Store the identity and raw result for this species
+                    results[species] = (identity, blast_result)
+
+                # Filter out species with no valid hit (i.e., identity is None)
+                valid_results = {sp: data for sp, data in results.items() if data[0] is not None}
+
+                # If no valid BLAST hits found in any species database
+                if not valid_results:
                     species_file.write(f"{fasta_file}\tNo Match\tN/A\n")
-                    continue
-                elif vulpes_identity is None:
-                    # No match in vulpes database, use goreensis
-                    top_species = "Albula goreensis"
-                    top_identity = goreensis_identity
-                elif goreensis_identity is None:
-                    # No match in goreensis database, use vulpes
-                    top_species = "Albula vulpes"
-                    top_identity = vulpes_identity
-                else:
-                    # Both databases have matches; compare percent identities
-                    if vulpes_identity >= goreensis_identity:
-                        top_species = "Albula vulpes"
-                        top_identity = vulpes_identity
-                    else:
-                        top_species = "Albula goreensis"
-                        top_identity = goreensis_identity
+                    continue  # Skip to next sample
 
-                # Write to species summary file
+                # Identify the species with the highest percent identity match
+                top_species, (top_identity, _) = max(valid_results.items(), key=lambda x: x[1][0])
+
+                # Write top hit info to species summary file
                 species_file.write(f"{fasta_file}\t{top_species}\t{top_identity:.3f}\n")
 
-                # Append detailed BLAST results to summary file
-                with open(summary_output_file, "a") as summary_file:
-                    summary_file.write(f"Results for {fasta_file} (Albula vulpes):\n")
-                    summary_file.write(vulpes_result + "\n")
-                    summary_file.write(f"Results for {fasta_file} (Albula goreensis):\n")
-                    summary_file.write(goreensis_result + "\n")
-                    summary_file.write("\n")
+                # Write full BLAST output for each species to the summary file
+                for species, (_, blast_output) in results.items():
+                    summary_file.write(f"Results for {fasta_file} ({species}):\n{blast_output}\n")
 
+                # Notify user that the sample has been processed
                 print(f"Completed BLAST for {fasta_file}")
 
+# Ensure that main() is only called when the script is run directly
 if __name__ == "__main__":
     main()
